@@ -1,0 +1,32 @@
+.titleBanner{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.scrollmenu {
+    font-family: "Frank Ruhl Libre",serif;
+    overflow: auto;
+    white-space: nowrap;
+    }
+
+nav.scrollmenu a {
+display: inline-block;
+text-align: center;
+padding: 14px;
+}
+.cardButton{
+    display: block;
+}
+.listButton{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.none{
+    display: none;
+}

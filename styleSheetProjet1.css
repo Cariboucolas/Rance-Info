@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 
 .welcomeTitle {
@@ -37,4 +38,23 @@
 body
 {
 
+=======
+﻿
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav 
+{
+
+}
+
+
+
+
+body
+{
+
+>>>>>>> 83fb9704055caa55704660c307be56f701223aeb
 }
