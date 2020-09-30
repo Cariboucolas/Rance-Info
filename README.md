@@ -13,6 +13,6 @@ We have choosen to present a **"Fake news"** website.
 - Adrien Zapico
 - Colas Durcy
 - Emilie Delsol
-- Fabien Gilliote
+- Fabien Gilliotte
 - Maïlys Dumas
 
