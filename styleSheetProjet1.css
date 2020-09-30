@@ -1,0 +1,41 @@
+﻿
+
+.welcomeTitle {
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation1 {
+    margin-bottom: 5%;
+}
+
+.boutons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.exempleimg {
+    width: 20%;
+    height: 20%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.element-list {
+    margin-left: 1%;
+    margin-right: 1%; 
+    background-color: lightcoral;
+    width: 90%;
+
+    
+}
+
+
+body
+{
+
+}
