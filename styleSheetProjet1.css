@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-﻿
 
+/*
 .welcomeTitle {
     margin: auto;
     width: 50%;
@@ -17,7 +16,7 @@
 .boutons{
     display: flex;
     justify-content: space-around;
-}
+} */ 
 
 .exempleimg {
     width: 20%;
@@ -28,33 +27,6 @@
 .element-list {
     margin-left: 1%;
     margin-right: 1%; 
-    background-color: lightcoral;
+    background-color: lightgrey;
     width: 90%;
-
-    
-}
-
-
-body
-{
-
-=======
-﻿
-.navigation{
-    display: flex;
-    justify-content: space-around;
-}
-
-nav 
-{
-
-}
-
-
-
-
-body
-{
-
->>>>>>> 83fb9704055caa55704660c307be56f701223aeb
 }
