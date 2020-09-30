@@ -10,7 +10,9 @@ We have choosen to present a **"Fake news"** website.
  
 
 ## Authors
-- Adrien Zappico
+- Adrien Zapico
 - Colas Durcy
 - Emilie Delsol
+- Fabien Gilliote
 - Maïlys Dumas
+
