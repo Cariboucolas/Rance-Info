@@ -32,3 +32,8 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
+/*Contrôle taille fil d'info dans le block "jumbotron" */
+.newsFeed p{
+height: 50px;
+overflow: hidden;
+}
