@@ -30,3 +30,21 @@
     background-color: lightgray;
     width: 99%;
 }
+
+/*******************************************************************
+**************************Aside css**********************************
+********************************************************************/
+
+.asideDiv{
+    background: url("https://www.ladepeche.fr/img/textures/thin-color.png") #c6c6c6;
+    content: '';
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 8px; 
+}
+::before{
+    box-sizing: inherit;
+}
