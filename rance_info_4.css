@@ -1,0 +1,36 @@
+.ranceTitle {
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+.bigTitle {
+    background-color: #222;
+}
+
+/*background-image: url(/skin/dist/www/img/lgo/logo-8a5643907f.svg);*/
+
+.ranceTitle span {
+    font-weight: 900;
+    color: #ffc300;
+}
+
+h4,
+h2 {
+    font-weight: bold;
+}
+
+.readMore {
+    font-family: "Frank Ruhl Libre",serif;
+    font-size: medium;
+}
+
+.footer {
+    background: #8e9eab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #8e9eab, #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #8e9eab, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footerLink {
+    color: black;
+}

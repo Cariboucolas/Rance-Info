@@ -1,0 +1,12 @@
+.cardButton {
+    display: none;
+}
+
+.listButton {
+    display: none;
+}
+
+.contenaire-article {
+    width: 60%;
+    justify-items: center;
+} 
