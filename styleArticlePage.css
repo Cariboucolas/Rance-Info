@@ -1,12 +1,8 @@
-.cardButton {
-    display: none;
-}
-
-.listButton {
-    display: none;
-}
-
-.contenaire-article {
+/*.contenaire-article {
     width: 60%;
     justify-items: center;
-} 
+} */
+
+.card-text {
+    font-size: 12px;
+}
