@@ -19,3 +19,18 @@ contentToReplace.innerHTML=newsFeedText[i].textContent;
 });
 }
 
+//Lignes de test
+
+//Test du remplacement du texte
+titleToReplace.innerHTML=newsFeedTitle[1].textContent;
+contentToReplace.innerHTML=newsFeedText[1].textContent;
+
+
+//Test du fonctionnement de la détection du "mouseover"
+let checkMouseover = 0;
+blockInfo[0].addEventListener('mouseover',function()
+{
+    checkMouseover++;
+
+});
+
