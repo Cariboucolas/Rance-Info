@@ -8,11 +8,11 @@
 
 nav.scrollmenu {
 
-    font-family: "Frank Ruhl Libre",serif;
+    font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
     white-space: nowrap;
     
-    }
+}
 
 nav.scrollmenu a {
     display: inline-block;
@@ -23,6 +23,7 @@ nav.scrollmenu a {
 .cardButton{
     display: block;
 }
+
 .listButton{
     display: none;
 }
