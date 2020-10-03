@@ -21,7 +21,7 @@
 .exempleimg {
     /*width: 30%;
     height: 25%;*/
-    padding-right: 1%;
+    border-radius: 3px;
 }
 
 .element-list {
