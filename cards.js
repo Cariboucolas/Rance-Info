@@ -32,7 +32,7 @@ liContainer.forEach(liContainer=>cardButton.addEventListener("click", function()
 																		}));
 cardsImg.forEach(cardsImg=>cardButton.addEventListener("click", function(){
 																	cardsImg.classList.toggle("w-100");
-																	cardsImg.classList.toggle("col-4");																	
+																	cardsImg.classList.toggle("col-5");																	
 																}));
 
 myCard.forEach(myCard=>cardButton.addEventListener("click", function(){
@@ -65,7 +65,7 @@ liContainer.forEach(liContainer=>listButton.addEventListener("click", function()
 																		}));
 cardsImg.forEach(cardsImg=>listButton.addEventListener("click", function(){
 																			cardsImg.classList.toggle("w-100");	
-																			cardsImg.classList.toggle("col-4");																	
+																			cardsImg.classList.toggle("col-5");																	
 																		}));
 myCard.forEach(myCard=>listButton.addEventListener("click", function(){
 															    myCard.classList.toggle("card-body");
