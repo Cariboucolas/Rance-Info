@@ -11,7 +11,8 @@ nav.scrollmenu {
     font-family: "Frank Ruhl Libre",serif;
     overflow: auto;
     white-space: nowrap;
-    
+    display: flex;
+    justify-content: space-evenly;
     }
 
 nav.scrollmenu a {
