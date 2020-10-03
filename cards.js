@@ -5,6 +5,7 @@ const listButton =  document.querySelector(".listButton");
 const ulContainer = document.querySelector(".ulContainer");
 const liContainer = document.querySelectorAll(".liContainer");
 const myCard = document.querySelectorAll(".myCard");
+const cardsImg = document.querySelectorAll(".exempleImg");
 
 /******************************************
 *card button's actions:
@@ -23,12 +24,16 @@ cardButton.addEventListener("click", function(){
 liContainer.forEach(liContainer=>cardButton.addEventListener("click", function(){
 																			liContainer.classList.toggle("card");
 																		    liContainer.classList.toggle("mb-4");
-																		    liContainer.style.width="18rem";
+																		    liContainer.style.width="30rem";
 
 																		    liContainer.classList.toggle("media");
 																		    liContainer.classList.toggle("my-4");
 																		    liContainer.classList.toggle("element-list");
 																		}));
+cardsImg.forEach(cardsImg=>cardButton.addEventListener("click", function(){
+																	cardsImg.classList.toggle("w-100");	
+																	cardsImg.classList.toggle("col-4");																
+																}));
 
 myCard.forEach(myCard=>cardButton.addEventListener("click", function(){
 															    myCard.classList.toggle("card-body");
@@ -57,6 +62,10 @@ liContainer.forEach(liContainer=>listButton.addEventListener("click", function()
 																		    liContainer.classList.toggle("media");
 																		    liContainer.classList.toggle("my-4");
 																		    liContainer.classList.toggle("element-list");
+																		}));
+cardsImg.forEach(cardsImg=>listButton.addEventListener("click", function(){
+																			cardsImg.classList.toggle("w-100");	
+																			cardsImg.classList.toggle("col-4");																
 																		}));
 myCard.forEach(myCard=>listButton.addEventListener("click", function(){
 															    myCard.classList.toggle("card-body");
