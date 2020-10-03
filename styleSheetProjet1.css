@@ -16,18 +16,12 @@
 .boutons{
     display: flex;
     justify-content: space-around;
-} */ 
+} */
 
-/*.exempleimg {
+.exempleimg {
     width: 30%;
     height: 25%;
-    padding-right: 1%;
-}*/
-
-.element-list {
-    margin-left: 1%;
-    margin-right: 1%; 
-    width: 99%;
+    border-radius: 3px;
 }
 
 /*******************************************************************
