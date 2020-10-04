@@ -11,8 +11,9 @@ nav.scrollmenu {
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
     white-space: nowrap;
-    
-}
+    display: flex;
+    justify-content: space-evenly;
+    }
 
 nav.scrollmenu a {
     display: inline-block;
