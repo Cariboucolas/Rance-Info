@@ -83,6 +83,15 @@ overflow: hidden;
     text-decoration: none;
     display: block;
   }
+  .aMenu{
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .aMenu:hover{
+      text-decoration: none;
+      color: #ffc300;
+  }
+ 
   
   /* Change color of dropdown links on hover */
   .dropdownContent a:hover {background-color: #ddd;}
@@ -96,6 +105,22 @@ overflow: hidden;
   
   /* Change the color of the dropdown button when the dropdown content is shown */
   .dropButton:hover {color:#ffc300;} 
+
+  @media (max-width: 992px){
+    .animation:hover .dropdownContent, .sciences:hover .dropdownContent,
+    .viePratique:hover .dropdownContent, .fitness:hover .dropdownContent, 
+    .natureAnimaux:hover .dropdownContent, .politique:hover .dropdownContent, 
+    .cuisine:hover .dropdownContent, .histoire:hover .dropdownContent, 
+    .beauty:hover .dropdownContent{display: none;}
+
+    .dropdownMenu a {
+        font-size: 1.2em;
+    }
+    .dropdownMenu{
+        overflow: scroll;
+    }
+
+  }
 
 /**********************************************************************
 **********************end CSS dropDown menu****************************
