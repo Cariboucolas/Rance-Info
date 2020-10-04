@@ -25,7 +25,8 @@ liContainer.forEach(liContainer=>cardButton.addEventListener("click", function()
 																			liContainer.classList.toggle("card");
 																		    liContainer.classList.toggle("mb-4");
 																		
-																		    liContainer.classList.toggle("col-md-4");
+																			liContainer.classList.toggle("col-lg-4");
+																			liContainer.classList.toggle("col-md-12");
 																		    liContainer.classList.toggle("d-flex");
 																		    liContainer.classList.toggle("justify-content-around");
 
@@ -62,7 +63,8 @@ liContainer.forEach(liContainer=>listButton.addEventListener("click", function()
 																			liContainer.classList.toggle("card");
 																			liContainer.classList.toggle("mb-4");
 
-																			liContainer.classList.toggle("col-md-4");
+																			liContainer.classList.toggle("col-lg-4");
+																			liContainer.classList.toggle("col-md-12");
 																			liContainer.classList.toggle("d-flex");
 																			liContainer.classList.toggle("justify-content-around");
 
