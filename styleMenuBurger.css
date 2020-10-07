@@ -39,7 +39,7 @@ ul {
 #menuToggle span {
   display: flex;
   width: 29px;
-  height: 3px;
+  height: 2px;
   margin-bottom: 5px;
   position: relative;
   background: grey;

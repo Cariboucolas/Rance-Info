@@ -18,30 +18,7 @@
     color: #ffc300;
 }
 
-h4,
-h2 {
-    font-weight: bold;
-}
-
-.accroche {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.readMore {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-}
-
 .footer {
     white-space: nowrap;
     background-color: #222;
-}
-
-.footerTitle {
-    color: white;
-}
-
-.footerLink {
-    color: white;
-    font-size: medium;
 }
