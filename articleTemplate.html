@@ -15,25 +15,31 @@
   </head>
 
 
-  <body>
+  <body style="max-width: 1680px;" class="m-auto">
+ 
     <div class="container-fluid"> 
       <header class="blog-header py-3">
         <div class="row titleBanner bigTitle">
           <div class="col-4 pt-1">
-            <nav class="d-sm-block d-md-none">
+            <nav class="d-block d-lg-none ">
               <div id="menuToggle">
-                <ul id="menu">
-                  <li><a href="#">Theme1</a></li>
-                  <li><a href="#">Theme2</a></li>
-                  <li><a href="#">Theme3</a></li>
-                  <li><a href="#">Theme5</a></li>
-                  <li><a href="#">Theme6</a></li>
-                  <li><a href="#">Theme7</a></li>
-                  <li><a href="#">Theme8</a></li>
-                  <li><a href="#">Theme9</a></li>
-                </ul>
-              </div>
-            </nav>
+                <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              <ul id="menu">
+                <li><a href="#">Theme1</a></li>
+                <li><a href="#">Theme2</a></li>
+                <li><a href="#">Theme3</a></li>
+                <li><a href="#">Theme5</a></li>
+                <li><a href="#">Theme6</a></li>
+                <li><a href="#">Theme7</a></li>
+                <li><a href="#">Theme8</a></li>
+                <li><a href="#">Theme9</a></li>
+              </ul>
+             </div>
+             </nav>
+            <!--<a href="#" class="d-sm-block d-md-none">menu burger</a>-->
           </div>
           
           <div class="col-4 text-center">
@@ -61,207 +67,313 @@
         </div>
       </header>
         
-      <nav class="scrollmenu">
-        <a class="p-2 text-muted" href="#">#Thème1</a>
-        <a class="p-2 text-muted" href="#">#Thème2</a>
-        <a class="p-2 text-muted" href="#">#Thème3</a>
-        <a class="p-2 text-muted" href="#">#Thème4</a>
-        <a class="p-2 text-muted" href="#">#Thème5</a>
-        <a class="p-2 text-muted" href="#">#Thème6</a>
-        <a class="p-2 text-muted" href="#">#Thème7</a>
-        <a class="p-2 text-muted" href="#">#Thème8</a>
-        <a class="p-2 text-muted" href="#">#Thème9</a>
-      </nav>
+<!-----------------------------------------------------------
+-------------------------------------------------------------
+--------Dropdown menu in pure CSS not a bootstrap class-------
+-------------------by Emilie----------------------------------
+------------------------------------------------------------->
+      <nav class="dropdownMenu">
+        
 
-
+        <ul>
+          <!--ANIMATION-->
+          <li class="animation">
+            <button class="dropButton"><a href="#" class="aMenu">Animés/BD</a></button>
+              <div class="dropdownContent">
+                <a href="goldorak.html">Goldorak vs NL</a>
+                <a href="bdWilders.html">BD de Wilders</a>
+                
+              </div>
+          </li>
+          <!--SCIENCES-->
+          <li class="sciences">
+            <button class="dropButton"><a href="#" class="aMenu">Sciences</a></button>
+              <div class="dropdownContent">
+                <ul class="listInDropdown">
+                  <li><h4>informatique</h4></li>
+                  <li><a href="https://www.gohumour.com/blague/societe/geeks/windows">Windows</a></li>
+                  <li><a href="https://www.gohumour.com/blague/societe/geeks/apple">Apple</a></li>
+                  <li><a href="https://www.gohumour.com/blague/societe/geeks/linux">Linux</a></li>
+                  <li><a href="https://www.gohumour.com/blague/societe/geeks/internet">Internet</a></li>
+                </ul>
+                <ul class="listInDropdown">
+                  <li><h4>Developement Web</h4></li>
+                  <li><a href="#">Sport pour dev</a></li>
+                </ul>
+              </div>
+          </li>
+          <!--VIE PRATIQUE-->
+          <li class="viePratique">
+            <button class="dropButton"><a href="#" class="aMenu">Vie Pratique</a></button>
+              <div class="dropdownContent">
+                <a href="#">Ecrire avec ses pieds</a>
+                <a href="#">Activités aux toilettes</a>
+                <a href="#">link1</a>
+              </div>
+          </li>
+          <!--SPORT-->
+          <li class="fitness">
+            <button class="dropButton"><a href="#" class="aMenu">Sport</a></button>
+              <div class="dropdownContent">
+                <a href="hair.html">WC coiffure</a>
+                <a href="#">Sport pour dev</a>
+                <a href="#">link1</a>
+              </div>
+          </li>
+          <!--NATURE ET ANIMAUX-->
+          <li class="natureAnimaux">
+            <button class="dropButton"><a href="#" class="aMenu">Nature et animaux</a></button>
+              <div class="dropdownContent">
+                <a href="beavers.html">La transhumance des castors</a>
+                <a href="seaHorses.html">La reprodustion des hippocampes</a>
+              </div>
+          </li>
+          <!--Politique-->
+          <li class="politique">
+            <button class="dropButton"><a href="#" class="aMenu">Politique</a></button>
+              <div class="dropdownContent">
+                <a href="trump.html">Trump VS Biden</a>
+                <a href="#">link1</a>
+                <a href="#">link1</a>
+              </div>
+          </li>
+          <!--CUISINE-->
+          <li class="cuisine">
+            <button class="dropButton"><a href="#" class="aMenu">Cuisine</a></button>
+              <div class="dropdownContent">
+                <a href="#">Canard ou cochon?</a>
+                <a href="#">link1</a>
+                <a href="#">link1</a>
+              </div>
+          </li>
+          <!--HISTOIRE -->
+          <li class="histoire">
+            <button class="dropButton"><a href="#" class="aMenu">Histoire</a></button>
+              <div class="dropdownContent">
+                <a href="atlantide.html">L'histoire vrai de l'atlantide</a>
+                
+              </div>
+          </li>
+          <!--BEAUTE-->
+          <li class="beauty">
+            <button class="dropButton"><a href="#" class="aMenu">Beauté</a></button>
+              <div class="dropdownContent">
+                <a href="#">link1</a>
+                <a href="#">link1</a>
+                <a href="#">link1</a>
+              </div>
+          </li>
+        </ul>
+      </nav>  
     </div>
+<!------------------------------------------------------------------
+--------End DropDown menu pure CSS----------------------------------
+-------------------------------------------------------------------->
 
+<!------------------------------------------------------------------
+--------Start Article (title + image + description)-----------------
+-------------------------------------------------------------------->
     <section class="d-flex flex-column">
       <div>
         <h2 class="display-4 font-weight-bolder text-center">Goldorak versus Nicky Larson</h2>
-        <img class="col-12" src="imageArticle/versus.jpg" alt="image of Goldorak vs Nicky Larson">
+        <img class="w-100" src="imageArticle/versus.jpg" alt="image of Goldorak vs Nicky Larson">
       </div>
 
       <div class="row mt-3">
         <div class="col-3">
         </div>
-        <div class="col-md-6">
-          <p class="text-justify">Ceux sont bien évidemment des personnages emblématiques dont nous allons vous parler ici, certains seront offusqués de les mesurer l’un à l’autre, que diable les emportent nous sommes un journal on ne peut plus neutre!
+        <div class="col-md-6 px-0">
+          <p class="text-justify textArticleSize mx-4">Ceux sont bien évidemment des personnages emblématiques dont nous allons vous parler ici, certains seront offusqués de les mesurer l’un à l’autre, que diable les emportent nous sommes un journal on ne peut plus neutre!
             A ma gauche Goldorak piloté par Actarus à ma droite Nicky Larson avec son colt Python.
             L’un a de multiples techniques tel que fulguropoing et ophtofisseur (techniques pouvant être utilisés dans d’autres contextes), l’autre pourrait vous trouer le slip sans toucher les bords!</p>
-          <p class="text-justify">Mais revenons sur leur histoire respective, Goldorak doit sa création à l’empire Vega contre qui Actarus le soustraya et s’en justement pour les vaincres, car oui Acturus a une dent contre l’empire Vega puisqu’ils ont annihilé sa planète natale (une vengeance bien assumé, même si tout le monde a ses propres problèmes).</p>
-          <p class="text-justify">Nicky Larson, c’est un un garde du corps balèze de surcroît mais tout aussi pervers (c’est peut être l’origine de sa force), on ne connaît pas réellement son origine, juste qu’il a été formé dès son enfance par un groupe de guerrier en amérique latine.</p>
-          <p class="text-justify">En réalité il est difficile de comparer un robot géant à une personne humaine, quand l’un fait 30m de haut pour 280T et l’autre 1m91 pour 77kg…</p>
-          <p class="text-justify">Nous allons donc simplement vous laisser imaginer l’hypothèse du vainqueur...</p>
-          <p><small class="text-muted">Last updated 3 mins ago</small></p>
-
+          <p class="text-justify textArticleSize mx-4">Mais revenons sur leur histoire respective, Goldorak doit sa création à l’empire Vega contre qui Actarus le soustraya et s’en justement pour les vaincres, car oui Acturus a une dent contre l’empire Vega puisqu’ils ont annihilé sa planète natale (une vengeance bien assumé, même si tout le monde a ses propres problèmes).</p>
+          <p class="text-justify textArticleSize mx-4">Nicky Larson, c’est un un garde du corps balèze de surcroît mais tout aussi pervers (c’est peut être l’origine de sa force), on ne connaît pas réellement son origine, juste qu’il a été formé dès son enfance par un groupe de guerrier en amérique latine.</p>
+          <p class="text-justify textArticleSize mx-4">En réalité il est difficile de comparer un robot géant à une personne humaine, quand l’un fait 30m de haut pour 280T et l’autre 1m91 pour 77kg…</p>
+          <p class="text-justify textArticleSize mx-4">Nous allons donc simplement vous laisser imaginer l’hypothèse du vainqueur...</p>
+          <p><small class="text-muted mx-4">Last updated 3 mins ago</small></p>
         </div>
+
+<!------------------------------------------------------------------
+--------End Article (title + image + description)-----------------
+-------------------------------------------------------------------->
           
-        <div class="col-3">
-          <ul class="ulContainer list-unstyled mt-3"> <!--add ul container by emilie-->
+<!------------------------------------------------------------------
+--------Start Liste Articles Aside----------------------------------
+-------------------------------------------------------------------->
 
-            <li class="liContainer media my-4 element-list accroche themeSciences"><!--class liContainer add by Emilie for script JS-->
-                <img class="m-auto exempleimg" src="https://i.ibb.co/8YtKtM7/flaque.jpg" alt="Generic placeholder image">
-
-                <div class="myCard media-body"><!--class myCard add by Emilie for js script-->
-                    <h4 class="mt-0 mb-1 font-weight-bold">Mesure et catégorisation des flaques d’eau</h4>
-                    <p class="lead my-3">
-                      Une flaque d’eau ou simplement flaque, généralement appelée gouille en Suisse romande
-                      est une petite étendue d’eau temporaire constituée par l'accumulation d'eau, généralement  de pluie, dans un creux suffisamment imperméable du sol.
-                      Souvent mesuré et répertorié en aqua plannings par cm², cette méthode ne fait pourtant pas l’unanimité,
-                      au centre de ce débats, nos experts décèlent ce sujet qui enflamme les esprits.
-                    </p>
-                    <a href="#" class="lead mb-0 readMore">Lire plus....</a>
-                </div>
-            </li>
-
-            <li class="liContainer media my-4 element-list accroche themeViePratique"><!--class liContainer add by Emilie for script JS-->
-                <img class="m-auto exempleimg" src="https://i.ibb.co/0cxb6S0/pieds.jpg" alt="Generic placeholder image">
-
-                <div class="myCard media-body"><!--class myCard add by Emilie for js script-->
-                    <h4 class="mt-0 mb-1 font-weight-bold">
-                        Apprendre à écrire avec ses pieds
-                    </h4>
-                    <p class="lead my-3">
-                        C’est la fin des vacances, vous n’avez pas lâché votre portable de la quinzaine.
-                        Vous devez toutefois envoyer votre carte postale, à votre grand mère pour amortir vos frais.
-                        La solution pour vous : écrire avec vos pieds.
-                    </p>
-                    <a href="#" class="lead mb-0 readMore">Lire plus....</a>
-                </div>
-            </li>
-
-            <li class="liContainer media my-4 element-list accroche themeFitness"><!--class liContainer add by Emilie for script JS-->
-                <img class="m-auto exempleimg" src="https://i.ibb.co/hDVPzBQ/fessier.jpg" alt="Generic placeholder image">
-
-                <div class="myCard media-body"><!--class myCard add by Emilie for js script-->
-                    <h4 class="mt-0 mb-1 font-weight-bold">
-                        Comment muscler ses fessiers en faisant du dev
-                    </h4>
-                    <p class="lead my-3">
-                        Vous travaillez dans le Web Development? Vous voulez devenir Web Developer?
-                        Oui!!...mais attention à vos fesses. Elles risquent de ne pas digérer la valse de kB, MB, GB. Notre tuto rapide.
-                    </p>
-                    <a href="#" class="lead mb-0 readMore">Lire plus....</a>
-                </div>
-            </li>
-
-            <li class="liContainer media my-4 element-list accroche themeNatureAnimaux"><!--class liContainer add by Emilie for script JS-->
-                <img class="m-auto exempleimg" src="https://i.ibb.co/yYDK0rf/castor.jpg" alt="Generic placeholder image">
-
-                <div class="myCard media-body"><!--class myCard add by Emilie for js script-->
-                    <h4 class="mt-0 mb-1 font-weight-bold">
-                        La Transhumance des castors d'Europe
-                    </h4>
-                    <p class="lead my-3">
-                        Le castor est un rongeur semi-aquatique très présent en France. Ce grand bâtisseur
-                        passe sa vie à aménager et peaufiner sa hutte afin que sa famille et lui-même y soient bien installés.
-                        Mais quand vient le printemps, nous pouvons observer un phénomène des plus étrange.. La transhumance du castor!
-                    </p>
-                    <a href="#" class="lead mb-0 readMore">Lire plus....</a>
-                </div>
-            </li>
-
-            <li class="liContainer media my-4 element-list accroche themePolitique"><!--class liContainer add by Emilie for script JS-->
-                <img class="m-auto exempleimg" src="https://i.ibb.co/PxByhXs/trumpbiden.jpg" alt="Generic placeholder image">
-
-                <div class="myCard media-body"><!--class myCard add by Emilie for js script-->
-                    <h4 class="mt-0 mb-1 font-weight-bold">
-                        Donald Trump torpille son premier débat avec Joe Biden
-                    </h4>
-                    <p class="lead my-3">
-                        Les deux candidats à la Maison Blanche ont débattu dans une ambiance électrique, mardi,
-                        lors de leur premier face-à-face télévisé à Cleveland, suivi par des dizaines de millions d’Américains.
-                    </p>
-                    <a href="#" class="lead mb-0 readMore">Lire plus....</a>
-                </div>
-            </li>
-
-            <li class="liContainer media my-4 element-list accroche themeCuisine"><!--class liContainer add by Emilie for script JS-->
-                <img class="m-auto exempleimg" src="https://i.ibb.co/Qfg9rNg/Ma-t.jpg" alt="Generic placeholder image">
-
-                <div class="myCard media-body"><!--class myCard add by Emilie for js script-->
-                    <h4 class="mt-0 mb-1 font-weight-bold">Maïté : Retraitée isolée et jalousée dans les Landes</h4>
-                    <p class="lead my-3">
-                        Plus que jamais la cuisine fait saliver les Français, à la télévision, en librairies, dans l'assiette... Et, pourtant, un visage phare de ce domaine manque à l'appel :
-                        celui de Maïeté. La populaire cuisinière a certes connu son heure de gloire dans le passé mais cela reste mystérieux qu'elle n'apparaisse plus dans les médias.
-                        Elle vit sa retraite, isolée.
-                    </p>
-                    <a href="#" class="lead mb-0 readMore">Lire plus....</a>
-                </div>
-            </li>
-
-            <li class="liContainer media my-4 element-list accroche themeHistoire">
-                <!--class liContainer add by Emilie for script JS-->
-                <img class="m-auto exempleimg" src="https://i.ibb.co/mJP7KsM/atlantide.jpg" alt="atlantide" border="0" > 
-                <div class="myCard media-body">
-                    <!--class myCard add by Emilie for js script-->
-                    <h4 class="mt-0 mb-1 font-weight-bold">
-                        L'histoire vraie de l'Atlantide
-                    </h4>
-
-                    <p class="lead my-3">
-                        L’Atlantide (du grec ancien Ἀτλαντίς / Atlantís) est une île mythique évoquée par Platon dans deux de ses Dialogues, le Timée puis le Critias.
-                    </p>
-                    <a href="#" class="lead mb-0 readMore">Lire plus....</a>
-                </div>
-            </li>
-
-            <li class="liContainer media my-4 element-list accroche themeNatureAnimaux2"><!--class liContainer add by Emilie for script JS-->
-                <img class="m-auto exempleimg" src="https://i.ibb.co/wrCGy0z/Hippocampes.jpg" alt="Generic placeholder image">
-
-                <div class="myCard media-body"><!--class myCard add by Emilie for js script-->
-                    <h4 class="mt-0 mb-1 font-weight-bold">
-                        La reproduction des hippocampes : il faut le voir pour le croire
-                    </h4>
-                    <p class="lead my-3">
-                        Les Hippocampes (Hippocampus), du grec ἵππος, híppos, « cheval » et de κάμπος, kámpos, « poisson marin », aussi appelés familièrement chevaux de mer,
-                        sont un genre de poissons à nageoires rayonnées de la famille des Syngnathidae.
-                    </p>
-                    <a href="#" class="lead mb-0 readMore">Lire plus....</a>
-                </div>
-            </li>
-
-            <li class="liContainer media my-4 element-list accroche themeBeaute"><!--class liContainer add by Emilie for script JS-->
-                <img class="m-auto exempleimg" src="https://i.ibb.co/6NqG6vw/coiffure.jpg" alt="Generic placeholder image">
-
-                <div class="myCard media-body"><!--class myCard add by Emilie for js script-->
-                    <h4 class="mt-0 mb-1 font-weight-bold">Organisation de la coupe du monde de coiffure</h4>
-                    <p class="lead my-3">
-                        Hair we go - Après des années de pellicules et de chute précoce, la célèbre marque de shampooing “Tête & Epaules” décide d’organiser un tournoi sans précédent!
-                    </p>
-                    <a href="#" class="lead mb-0 readMore">Lire plus....</a>
-                </div>
-            </li>
-          </ul>
-        </div>
+<div class="col-md-3 list-group">
+  <a href="flasks.html" class="list-group-item list-group-item-action flex-column align-items-start">
+    <img class="w-100" src="https://i.ibb.co/8YtKtM7/flaque.jpg" alt="image of flask">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Mesure et catégorisation des flaques d’eau</h5>
+    </div>
+    <p class="mb-1 sizeText">Une flaque d’eau ou simplement flaque, généralement appelée gouille en Suisse romande
+      est une petite étendue d’eau temporaire constituée par l'accumulation d'eau, généralement  de pluie, dans un creux suffisamment imperméable du sol.</p>
+  </a>
+  <a href="footsWrite.html" class="list-group-item list-group-item-action flex-column align-items-start">
+    <img class="w-100" src="https://i.ibb.co/0cxb6S0/pieds.jpg" alt="image of foots which write with pen">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Apprendre à écrire avec ses pieds</h5>
+    </div>
+    <p class="mb-1 sizeText">C’est la fin des vacances, vous n’avez pas lâché votre portable de la quinzaine.
+      Vous devez toutefois envoyer votre carte postale, à votre grand mère pour amortir vos frais.
+      La solution pour vous : écrire avec vos pieds.</p>
+  </a>
+  <a href="training.html" class="list-group-item list-group-item-action flex-column align-items-start">
+    <img class="w-100" src="https://i.ibb.co/hDVPzBQ/fessier.jpg" alt="Image of girl who practices squat">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Comment muscler ses fessiers en faisant du dev</h5>
+    </div>
+    <p class="mb-1 sizeText">Vous travaillez dans le Web Development? Vous voulez devenir Web Developer?
+      Oui!!...mais attention à vos fesses. Elles risquent de ne pas digérer la valse de kB, MB, GB. Notre tuto rapide.</p>
+  </a>
+  <a href="beavers.html" class="list-group-item list-group-item-action flex-column align-items-start d-md-none">
+    <img class="w-100" src="https://i.ibb.co/yYDK0rf/castor.jpg" alt="image of castor">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">La Transhumance des castors d'Europe</h5>
+    </div>
+    <p class="mb-1 sizeText">Le castor est un rongeur semi-aquatique très présent en France. Ce grand bâtisseur
+      passe sa vie à aménager et peaufiner sa hutte afin que sa famille et lui-même y soient bien installés.
+      Mais quand vient le printemps, nous pouvons observer un phénomène des plus étrange.. La transhumance du castor!</p>
+  </a>
+  <a href="trump.html" class="list-group-item list-group-item-action flex-column align-items-start d-md-none">
+    <img class="w-100" src="https://i.ibb.co/PxByhXs/trumpbiden.jpg" alt="image of Trump and Biden">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Donald Trump torpille son premier débat avec Joe Biden</h5>
+    </div>
+    <p class="mb-1 sizeText">Les deux candidats à la Maison Blanche ont débattu dans une ambiance électrique, mardi,
+      lors de leur premier face-à-face télévisé à Cleveland, suivi par des dizaines de millions d’Américains.</p>
+  </a>
+  <a href="maite.html" class="list-group-item list-group-item-action flex-column align-items-start d-md-none">
+    <img class="w-100" src="https://i.ibb.co/Qfg9rNg/Ma-t.jpg" alt="image of Maite">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Maïté : Retraitée isolée et jalousée dans les Landes</h5>
+    </div>
+    <p class="mb-1 sizeText">Plus que jamais la cuisine fait saliver les Français, à la télévision, en librairies, dans l'assiette... Et, pourtant, un visage phare de ce domaine manque à l'appel :
+      celui de Maïeté. La populaire cuisinière a certes connu son heure de gloire dans le passé mais cela reste mystérieux qu'elle n'apparaisse plus dans les médias.
+      Elle vit sa retraite, isolée.</p>
+  </a>
+  <a href="atlantide.html" class="list-group-item list-group-item-action flex-column align-items-start d-md-none">
+    <img class="w-100" src="https://i.ibb.co/mJP7KsM/atlantide.jpg" alt="atlantide">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">L'histoire vraie de l'Atlantide</h5>
+    </div>
+    <p class="mb-1 sizeText">L’Atlantide (du grec ancien Ἀτλαντίς / Atlantís) est une île mythique évoquée par Platon dans deux de ses Dialogues, le Timée puis le Critias.</p>
+  </a>
+  <a href="seahorses.html" class="list-group-item list-group-item-action flex-column align-items-start d-md-none">
+    <img class="w-100" src="https://i.ibb.co/wrCGy0z/Hippocampes.jpg" alt="Hyppo">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">La reproduction des hippocampes : il faut le voir pour le croire</h5>
+    </div>
+    <p class="mb-1 sizeText">Les Hippocampes (Hippocampus), du grec ἵππος, híppos, « cheval » et de κάμπος, kámpos, « poisson marin », aussi appelés familièrement chevaux de mer,
+      sont un genre de poissons à nageoires rayonnées de la famille des Syngnathidae.</p>
+  </a>
+  <a href="hair.html" class="list-group-item list-group-item-action flex-column align-items-start d-md-none">
+    <img class="w-100" src="https://i.ibb.co/6NqG6vw/coiffure.jpg" alt="Generic placeholder image">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Organisation de la coupe du monde de coiffure</h5>
+    </div>
+    <p class="mb-1 sizeText">Hair we go - Après des années de pellicules et de chute précoce, la célèbre marque de shampooing “Tête & Epaules” décide d’organiser un tournoi sans précédent!</p>
+  </a>
+</div>
+<!------------------------------------------------------------------
+--------End Liste Articles Aside------------------------------------
+-------------------------------------------------------------------->
       </div>    
     </section>
       
-    <footer class="page-footer font-small stylish-color-dark pt-4">
+    <footer class="page-footer font-small stylish-color-dark pt-4 footer">
 
       <div class="container text-center text-md-left">
         <!-- Grid row -->
-          <div class="row">
-        <!-- Grid column -->
-            <div class="col-md-4 mx-auto">
-          <!-- Content -->
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-4 footerTitle yellowEffect">Rance Info <span>:</span></h5>
-            </div>
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-4 mx-auto">
+            <!-- Content -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4 footerTitle yellowEffect">Rance Info <span>:</span></h5>  
           </div>
+            <!-- Grid column -->
+            
+            <hr class="clearfix w-100 d-md-none">
+            
+            <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+            <!-- Links -->  
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" target="_blank" class="footerLink">Nous contacter</a>
+              </li>
+              <li>
+                <a href="#!"  target="_blank" class="footerLink">Qui sommes nous?</a>
+              </li>
+            </ul>    
+          </div>
+            <!-- Grid column -->
+            
+            <hr class="clearfix w-100 d-md-none">
+            
+            <!-- Grid column -->
+          <div class="col-md-2 mx-auto"> 
+            <!-- Links --> 
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.adopteunmec.com/" target="_blank" class="footerLink">Recrutement</a>
+              </li>
+              <li>
+                <a href="https://www.francetvinfo.fr/cgu/" target="_blank" class="footerLink">CGU et mentions légales</a>
+              </li>
+            </ul>  
+          </div>
+            <!-- Grid column -->
+            
+            <hr class="clearfix w-100 d-md-none">
+            
+            <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+            <!-- Links -->
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.youtube.com/watch?v=fRLiCXWnuts&ab_channel=CuisineMarocaineByMariam" target="_blank" class="footerLink">Gestion des cookies</a>
+              </li>
+              <li>
+                <a href="https://www.007.com/" target="_blank" class="footerLink">Politiques de confidentialités</a>
+              </li>
+            </ul>   
+          </div>
+            <!-- Grid column -->
+            
+        </div>
+          <!-- Grid row -->
+          
       </div>
-     </footer>
-
+        <!-- Footer Links -->
+        
+        <hr>
+        
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://www.wildcodeschool.com" target="_blank" class="footerLink"> Wild Code School</a>
+        </div>
+        <!-- Copyright -->
+        
+    </footer>
+  </div>
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/6801445827.js" crossorigin="anonymous"></script>
   
-</div>
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/6801445827.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="cards.js"></script>
-    <script type="text/javascript" src="newsFeed.js"></script>
-  </body>
   
-</html>
+      <script type="text/javascript" src="cards.js"></script>
+      <script type="text/javascript" src="newsFeed.js"></script>
+      <script type="text/javascript" src="index.js"></script>
+  
+  
+  
+      
+    </body>
+    
+    </html>
+  
+  
