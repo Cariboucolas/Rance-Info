@@ -97,6 +97,12 @@ ul {
   padding: 10px 0;
   transition-delay: 2s;
 }
+#menu div{
+  width: 100%;
+}
+#menu .dropdown-menu{
+  width: max-content;
+}
 
 #menuToggle input:checked ~ ul {
   transform: none;
