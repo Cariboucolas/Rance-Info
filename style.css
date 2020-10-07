@@ -1,0 +1,47 @@
+.yellowEffect:hover {
+    color: #ffc300;
+}
+
+.ranceTitle {
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+.bigTitle {
+    background-color: #222;
+}
+
+.ranceTitle span,
+.footerTitle span {
+    font-weight: 900;
+    color: #ffc300;
+}
+
+h4,
+h2 {
+    font-weight: bold;
+}
+
+.accroche {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.readMore {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.footer {
+    white-space: nowrap;
+    background-color: #222;
+}
+
+.footerTitle {
+    color: white;
+}
+
+.footerLink {
+    color: white;
+    font-size: medium;
+}
