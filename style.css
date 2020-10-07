@@ -17,3 +17,8 @@
     font-weight: 900;
     color: #ffc300;
 }
+
+.footer {
+    white-space: nowrap;
+    background-color: #222;
+}
