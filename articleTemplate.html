@@ -15,25 +15,31 @@
   </head>
 
 
-  <body>
+  <body style="max-width: 2048px;" class="m-auto">
+ 
     <div class="container-fluid"> 
       <header class="blog-header py-3">
         <div class="row titleBanner bigTitle">
           <div class="col-4 pt-1">
-            <nav class="d-sm-block d-md-none">
+            <nav class="d-block d-lg-none ">
               <div id="menuToggle">
-                <ul id="menu">
-                  <li><a href="#">Theme1</a></li>
-                  <li><a href="#">Theme2</a></li>
-                  <li><a href="#">Theme3</a></li>
-                  <li><a href="#">Theme5</a></li>
-                  <li><a href="#">Theme6</a></li>
-                  <li><a href="#">Theme7</a></li>
-                  <li><a href="#">Theme8</a></li>
-                  <li><a href="#">Theme9</a></li>
-                </ul>
-              </div>
-            </nav>
+                <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              <ul id="menu">
+                <li><a href="#">Theme1</a></li>
+                <li><a href="#">Theme2</a></li>
+                <li><a href="#">Theme3</a></li>
+                <li><a href="#">Theme5</a></li>
+                <li><a href="#">Theme6</a></li>
+                <li><a href="#">Theme7</a></li>
+                <li><a href="#">Theme8</a></li>
+                <li><a href="#">Theme9</a></li>
+              </ul>
+             </div>
+             </nav>
+            <!--<a href="#" class="d-sm-block d-md-none">menu burger</a>-->
           </div>
           
           <div class="col-4 text-center">
@@ -61,18 +67,107 @@
         </div>
       </header>
         
-      <nav class="scrollmenu">
-        <a class="p-2 text-muted" href="#">#Thème1</a>
-        <a class="p-2 text-muted" href="#">#Thème2</a>
-        <a class="p-2 text-muted" href="#">#Thème3</a>
-        <a class="p-2 text-muted" href="#">#Thème4</a>
-        <a class="p-2 text-muted" href="#">#Thème5</a>
-        <a class="p-2 text-muted" href="#">#Thème6</a>
-        <a class="p-2 text-muted" href="#">#Thème7</a>
-        <a class="p-2 text-muted" href="#">#Thème8</a>
-        <a class="p-2 text-muted" href="#">#Thème9</a>
-      </nav>
+<!-----------------------------------------------------------
+-------------------------------------------------------------
+--------Dropdown menu in pure CSS not a bootstrap class-------
+-------------------by Emilie----------------------------------
+------------------------------------------------------------->
+      <nav class="dropdownMenu">
+        
 
+        <ul>
+          <!--ANIMATION-->
+          <li class="animation">
+            <button class="dropButton"><a href="#" class="aMenu">Animés/BD</a></button>
+              <div class="dropdownContent">
+                <a href="goldorak.html">Goldorak vs NL</a>
+                <a href="bdWilders.html">BD de Wilders</a>
+                
+              </div>
+          </li>
+          <!--SCIENCES-->
+          <li class="sciences">
+            <button class="dropButton"><a href="#" class="aMenu">Sciences</a></button>
+              <div class="dropdownContent">
+                <ul class="listInDropdown">
+                  <li><h4>informatique</h4></li>
+                  <li><a href="https://www.gohumour.com/blague/societe/geeks/windows">Windows</a></li>
+                  <li><a href="https://www.gohumour.com/blague/societe/geeks/apple">Apple</a></li>
+                  <li><a href="https://www.gohumour.com/blague/societe/geeks/linux">Linux</a></li>
+                  <li><a href="https://www.gohumour.com/blague/societe/geeks/internet">Internet</a></li>
+                </ul>
+                <ul class="listInDropdown">
+                  <li><h4>Developement Web</h4></li>
+                  <li><a href="#">Sport pour dev</a></li>
+                </ul>
+              </div>
+          </li>
+          <!--VIE PRATIQUE-->
+          <li class="viePratique">
+            <button class="dropButton"><a href="#" class="aMenu">Vie Pratique</a></button>
+              <div class="dropdownContent">
+                <a href="#">Ecrire avec ses pieds</a>
+                <a href="#">Activités aux toilettes</a>
+                <a href="#">link1</a>
+              </div>
+          </li>
+          <!--SPORT-->
+          <li class="fitness">
+            <button class="dropButton"><a href="#" class="aMenu">Sport</a></button>
+              <div class="dropdownContent">
+                <a href="hair.html">WC coiffure</a>
+                <a href="#">Sport pour dev</a>
+                <a href="#">link1</a>
+              </div>
+          </li>
+          <!--NATURE ET ANIMAUX-->
+          <li class="natureAnimaux">
+            <button class="dropButton"><a href="#" class="aMenu">Nature et animaux</a></button>
+              <div class="dropdownContent">
+                <a href="beavers.html">La transhumance des castors</a>
+                <a href="seaHorses.html">La reprodustion des hippocampes</a>
+              </div>
+          </li>
+          <!--Politique-->
+          <li class="politique">
+            <button class="dropButton"><a href="#" class="aMenu">Politique</a></button>
+              <div class="dropdownContent">
+                <a href="trump.html">Trump VS Biden</a>
+                <a href="#">link1</a>
+                <a href="#">link1</a>
+              </div>
+          </li>
+          <!--CUISINE-->
+          <li class="cuisine">
+            <button class="dropButton"><a href="#" class="aMenu">Cuisine</a></button>
+              <div class="dropdownContent">
+                <a href="#">Canard ou cochon?</a>
+                <a href="#">link1</a>
+                <a href="#">link1</a>
+              </div>
+          </li>
+          <!--HISTOIRE -->
+          <li class="histoire">
+            <button class="dropButton"><a href="#" class="aMenu">Histoire</a></button>
+              <div class="dropdownContent">
+                <a href="atlantide.html">L'histoire vrai de l'atlantide</a>
+                
+              </div>
+          </li>
+          <!--BEAUTE-->
+          <li class="beauty">
+            <button class="dropButton"><a href="#" class="aMenu">Beauté</a></button>
+              <div class="dropdownContent">
+                <a href="#">link1</a>
+                <a href="#">link1</a>
+                <a href="#">link1</a>
+              </div>
+          </li>
+        </ul>
+      </nav>  
+<!-------------------------------------------------
+--------End DropDown menu pure CSS-----------------
+--------------------------------------------------->
 
     </div>
 
@@ -238,30 +333,98 @@
       </div>    
     </section>
       
-    <footer class="page-footer font-small stylish-color-dark pt-4">
+    <footer class="page-footer font-small stylish-color-dark pt-4 footer">
 
       <div class="container text-center text-md-left">
         <!-- Grid row -->
-          <div class="row">
-        <!-- Grid column -->
-            <div class="col-md-4 mx-auto">
-          <!-- Content -->
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-4 footerTitle yellowEffect">Rance Info <span>:</span></h5>
-            </div>
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-4 mx-auto">
+            <!-- Content -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4 footerTitle yellowEffect">Rance Info <span>:</span></h5>  
           </div>
+            <!-- Grid column -->
+            
+            <hr class="clearfix w-100 d-md-none">
+            
+            <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+            <!-- Links -->  
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" target="_blank" class="footerLink">Nous contacter</a>
+              </li>
+              <li>
+                <a href="#!"  target="_blank" class="footerLink">Qui sommes nous?</a>
+              </li>
+            </ul>    
+          </div>
+            <!-- Grid column -->
+            
+            <hr class="clearfix w-100 d-md-none">
+            
+            <!-- Grid column -->
+          <div class="col-md-2 mx-auto"> 
+            <!-- Links --> 
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.adopteunmec.com/" target="_blank" class="footerLink">Recrutement</a>
+              </li>
+              <li>
+                <a href="https://www.francetvinfo.fr/cgu/" target="_blank" class="footerLink">CGU et mentions légales</a>
+              </li>
+            </ul>  
+          </div>
+            <!-- Grid column -->
+            
+            <hr class="clearfix w-100 d-md-none">
+            
+            <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+            <!-- Links -->
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.youtube.com/watch?v=fRLiCXWnuts&ab_channel=CuisineMarocaineByMariam" target="_blank" class="footerLink">Gestion des cookies</a>
+              </li>
+              <li>
+                <a href="https://www.007.com/" target="_blank" class="footerLink">Politiques de confidentialités</a>
+              </li>
+            </ul>   
+          </div>
+            <!-- Grid column -->
+            
+        </div>
+          <!-- Grid row -->
+          
       </div>
-     </footer>
-
+        <!-- Footer Links -->
+        
+        <hr>
+        
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://www.wildcodeschool.com" target="_blank" class="footerLink"> Wild Code School</a>
+        </div>
+        <!-- Copyright -->
+        
+    </footer>
+  </div>
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/6801445827.js" crossorigin="anonymous"></script>
   
-</div>
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/6801445827.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="cards.js"></script>
-    <script type="text/javascript" src="newsFeed.js"></script>
-  </body>
   
-</html>
+      <script type="text/javascript" src="cards.js"></script>
+      <script type="text/javascript" src="newsFeed.js"></script>
+      <script type="text/javascript" src="index.js"></script>
+  
+  
+  
+      
+    </body>
+    
+    </html>
+  
+  
