@@ -1,12 +1,8 @@
-.cardButton {
-    display: none;
+@media screen and (max-width: 480px) {
+    .p-query {
+                font-size: 16px; }
 }
 
-.listButton {
-    display: none;
+.card-text {
+    font-size: 1rem;
 }
-
-.contenaire-article {
-    width: 60%;
-    justify-items: center;
-} 
