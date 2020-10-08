@@ -1,3 +1,7 @@
+body
+{
+  max-width: 1500px;
+}
 ul.timeline {
     list-style-type: none;
     position: relative;

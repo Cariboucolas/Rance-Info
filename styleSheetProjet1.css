@@ -1,4 +1,3 @@
-
 /*
 .welcomeTitle {
     margin: auto;
@@ -8,11 +7,9 @@
     display: flex;
     justify-content: center;
 }
-
 .navigation1 {
     margin-bottom: 5%;
 }
-
 .boutons{
     display: flex;
     justify-content: space-around;
