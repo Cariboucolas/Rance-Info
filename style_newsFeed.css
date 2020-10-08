@@ -1,59 +1,47 @@
-/*
-.welcomeTitle {
-    margin: auto;
-    width: 50%;
-    border: 1px solid black;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+body
+{
+  max-width: 1500px;
 }
-.navigation1 {
-    margin-bottom: 5%;
+ul.timeline {
+    list-style-type: none;
+    position: relative;
 }
-.boutons{
-    display: flex;
-    justify-content: space-around;
-} */
-
-.exempleimg {
-    /*width: 30%;
-    height: 25%;*/
-    border-radius: 3px;
-}
-
-/*******************************************************************
-**************************Aside css**********************************
-********************************************************************/
-
-.asideDiv{
-    background: url("https://www.ladepeche.fr/img/textures/thin-color.png") #c6c6c6;
-    content: '';
-    bottom: 0;
-    display: block;
-    left: 0;
+/* Réalisation de la barre verticale entre les cercles */
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
     position: absolute;
-    top: 0;
-    width: 8px; 
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
 }
-::before{
-    box-sizing: inherit;
+/* Marge Block Textes */
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+    border-bottom: 1px solid black
+}
+/* Cercle */
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+/*Contrôle taille fil d'info dans le block "jumbotron" */
+.newsFeed p{
+height: 50px;
+overflow: hidden;
 }
 
-
-
-/************************************************************************
-***********************SortDivCss**************************************************
-*************************************************************************/
-.sortDiv{
-    border: solid #ffc300;
-    padding: 1em;
-    padding-right: 3em;
-    justify-content: flex-end;
-}
-
-.sortButton{
-    margin-right: 1em;
-}
 /*********************************************************************
 **********************DropDown Menu in pure CSS by Emilie*************
 **********************************************************************/
