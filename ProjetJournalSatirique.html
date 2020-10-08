@@ -162,8 +162,9 @@
       <div class="col-4 text-center">
         <a class="title ranceTitle" href="index.html">Rance info <span>:</span></a>
       </div>
+      <!-- search button-->
       <div class="col-4 d-flex justify-content-end">
-        <a href="#" class="mr-sm-2"> <!-- search button-->
+        <a href="https://www.google.com/" class="text-secondary mr-sm-2"> 
           <svg 
             width="1em" 
             height="1em" 
@@ -179,25 +180,7 @@
               d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
             </svg>
           </a>
-           <!-- <button class="cardButton"> 
-              <svg 
-                width="1em" 
-                height="1em" 
-                viewBox="0 0 16 16" 
-                class="bi bi-layout-wtf" 
-                fill="currentColor" 
-                xmlns="http://www.w3.org/2000/svg">
-                <path 
-                  fill-rule="evenodd" 
-                  d="M5 1H1v8h4V1zM1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm13 2H9v5h5V2zM9 1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9zM5 13H3v2h2v-2zm-2-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3zm12-1H9v2h6v-2zm-6-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H9z"/>
-              </svg>
-            </button>
-            <button class="listButton"> 
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list-ul" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-            </svg>
-            </button> -->
-
+         
           </div>
         </div>
       </header>
@@ -359,7 +342,7 @@
       <section class="d-flex">
         <article>
 
-          <div class="sortDiv d-flex">
+          <div class="sortDiv d-flex mb-3">
             <div class="sortButton dropdown">
               <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
                   Trier par:
@@ -371,189 +354,465 @@
               </div>
             </div>
 
-            <button class="cardButton btn-lg" > <!-- sort button (card)-->
-              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-layout-wtf" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M5 1H1v8h4V1zM1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm13 2H9v5h5V2zM9 1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9zM5 13H3v2h2v-2zm-2-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3zm12-1H9v2h6v-2zm-6-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H9z"/>
-              </svg>
+          <!--sort button--> 
+            <button id="layout-button" class="btn btn-light btn-lg active">
+              <i class="fa fa-clone fa-lg"></i>
             </button>
-            <button class="listButton btn-lg"> <!-- sort button (list)-->
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list-ul" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-            </svg>
-            </button>
+
           </div>
 
-          <ul class="ulContainer list-unstyled mt-3"> <!--add ul container by emilie-->
-              <li class="liContainer media my-4 themeAnimation"><!--class liContainer add by Emilie for script JS-->
-                  <img class="m-auto exempleimg col-5" src="https://i.ibb.co/dDYS6MT/goldorak.jpg" alt="Generic placeholder image">
+<!--*****************************************************************************
+*********************CARD-DECK DISPLAY********************************************
+*********************************************************************************-->
 
+          <div id="article-cards" class="card-deck">
 
-                  <div class="myCard media-body pl-4"><!--class myCard add by Emilie for js script-->
-                      <h4 class="mt-0 mb-1 font-weight-bold">Goldorak versus Nicky Larson</h4>
-                      <p class="lead my-3">
-                          Qui de Goldorak ou de Nicky Larson est il le plus puissant? Une question que forcément toute personne qui se respecte, se pose, sinon à quoi bon rester en vie?!
-                      </p>
+            <div class="card">
+              <img class="card-img-top" src="https://i.ibb.co/dDYS6MT/goldorak.jpg" alt="Goldorak versus Nicky Larson">
+              <div class="card-body">
+                <h5 class="card-title">Goldorak versus Nicky Larson</h5>
+                <p class="card-text">Qui de Goldorak ou de Nicky Larson est il le plus puissant? Une question que 
+                  forcément toute personne qui se respecte, se pose, sinon à quoi bon rester en vie?!</p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>  
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="https://i.ibb.co/8YtKtM7/flaque.jpg" alt="Flaques d'eau">
+              <div class="card-body">
+                <h5 class="card-title">Mesure et catégorisation des flaques d’eau</h5>
+                <p class="card-text">Une flaque d’eau ou simplement flaque, généralement appelée gouille en 
+                  Suisse romande est une petite étendue d’eau... 
+                </p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="https://i.ibb.co/0cxb6S0/pieds.jpg" alt="Ecrire avec ses pieds">
+              <div class="card-body">
+                <h5 class="card-title">Apprendre à écrire avec ses pieds</h5>
+                <p class="card-text">C’est la fin des vacances, vous n’avez pas lâché votre portable de la quinzaine.
+                  Vous devez toutefois envoyer votre carte postale, à votre grand mère pour amortir vos frais.
+                  La solution pour vous : écrire avec vos pieds.</p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+              </div>
+            </div>
+
+          </div> 
+
+          <div id="article-cards" class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="https://i.ibb.co/hDVPzBQ/fessier.jpg" alt="Exo fessiers au fitness">
+              <div class="card-body">
+                <h5 class="card-title">Comment muscler ses fessiers en faisant du dev</h5>
+                <p class="card-text">Vous travaillez dans le Web Development? Vous voulez devenir Web Developer?
+                  Oui!!...mais attention à vos fesses. Elles risquent de ne pas digérer la valse de kB, MB, GB. 
+                  Notre tuto rapide.</p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="https://i.ibb.co/yYDK0rf/castor.jpg" alt="Un castor">
+              <div class="card-body">
+                <h5 class="card-title">La Transhumance des castors d'Europe</h5>
+                <p class="card-text">Le castor est un rongeur semi-aquatique très présent en France. Ce grand bâtisseur
+                  passe sa vie à aménager et peaufiner sa hutte afin que sa famille et lui-même y soient bien installés.
+                  Mais quand vient le printemps, nous pouvons observer un phénomène des plus étrange.. La transhumance du castor!</p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="https://i.ibb.co/PxByhXs/trumpbiden.jpg" alt="Biden VS Trump">
+              <div class="card-body">
+                <h5 class="card-title">Donald Trump torpille son premier débat avec Joe Biden</h5>
+                <p class="card-text">Les deux candidats à la Maison Blanche ont débattu dans une ambiance électrique, mardi,
+                  lors de leur premier face-à-face télévisé à Cleveland, suivi par des dizaines de millions d’Américains.</p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="article-cards" class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="https://i.ibb.co/Qfg9rNg/Ma-t.jpg" alt="Maïté portrait">
+              <div class="card-body">
+                <h5 class="card-title">Maïté : Retraitée isolée et jalousée dans les Landes</h5>
+                <p class="card-text">Plus que jamais la cuisine fait saliver les Français, à la télévision, en librairies, dans l'assiette... Et, pourtant, un visage phare de ce domaine manque à l'appel :
+                  celui de Maïeté. La populaire cuisinière a certes connu son heure de gloire dans le passé mais cela reste mystérieux qu'elle n'apparaisse plus dans les médias.
+                  Elle vit sa retraite, isolée.</p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="https://i.ibb.co/mJP7KsM/atlantide.jpg" alt="L'Atlantide">
+              <div class="card-body">
+                <h5 class="card-title">L'histoire vraie de l'Atlantide</h5>
+                <p class="card-text">L’Atlantide (du grec ancien Ἀτλαντίς / Atlantís) est une île 
+                  mythique évoquée par Platon dans deux de ses Dialogues, le Timée puis le Critias.</p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="https://i.ibb.co/wrCGy0z/Hippocampes.jpg" alt="Accouplement 2 hippocampes">
+              <div class="card-body">
+                <h5 class="card-title">La reproduction des hippocampes : il faut le voir pour le croire</h5>
+                <p class="card-text">Les Hippocampes (Hippocampus), du grec ἵππος, híppos, « cheval » et de κάμπος, 
+                  kámpos, « poisson marin », aussi appelés familièrement chevaux de mer,
+                  sont un genre de poissons à nageoires rayonnées de la famille des Syngnathidae.</p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="article-cards" class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="https://i.ibb.co/6NqG6vw/coiffure.jpg" alt="Coiffure mulet">
+              <div class="card-body">
+                <h5 class="card-title">Organisation de la coupe du monde de coiffure</h5>
+                <p class="card-text">Hair we go - Après des années de pellicules et de chute précoce, la 
+                  célèbre marque de shampooing “Tête & Epaules” décide d’organiser un tournoi sans précédent!</p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png" alt="Generic image">
+              <div class="card-body">
+                <h5 class="card-title">Titre</h5>
+                <p class="card-text">Résumé article</p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>  
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png" alt="Generic image">
+              <div class="card-body">
+                <h5 class="card-title">Titre</h5>
+                <p class="card-text">Résumé article</p>
+                <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>  
+              </div>
+            </div>
+
+          </div>
+
+        
+ <!--*****************************************************************************
+*********************END OF CARD-DECK DISPLAY**************************************
+*********************************************************************************-->         
+
+<!--*****************************************************************************
+*********************CARD-LIST DISPLAY********************************************
+*********************************************************************************-->
+          <div id="article-list" class="d-none">
+            
+            
+            <div class="container-fluid article-list">
+              <div class="row">
+
+                <div class="d-inline float-left col-5">
+                  <img class="col-12 pt-3 pb-3" src="https://i.ibb.co/dDYS6MT/goldorak.jpg" alt="Goldorak versus Nicky Larson">
+                </div>
+                <!--Display for large screens-->
+                <div class="d-inline float-right col-6">
+                  <h4 class="d-md-inline">Goldorak versus Nicky Larson</h4>
+                  <div class="d-none d-md-block">
+                    <p>Qui de Goldorak ou de Nicky Larson est il le plus puissant? Une question que forcément 
+                      toute personne qui se respecte, se pose, sinon à quoi bon rester en vie?!</p>
+                    <div class="pt-2 row">
                       <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                    </div>
                   </div>
+                </div>
+                <!--Mobile Display and Title Deleted for this size-->
+                <div class="d-block d-md-none">
+                  Qui de Goldorak ou de Nicky Larson est il le plus puissant? Une question que forcément 
+                  toute personne qui se respecte, se pose, sinon à quoi bon rester en vie?!
+                  <div class="pt-2 row">
+                    <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                  </div>
+                </div>
 
-              </li>   
+              </div>
+            </div> 
 
-              <li class="liContainer media my-4 themeSciences"><!--class liContainer add by Emilie for script JS-->
-                  <img class="m-auto exempleimg col-5" src="https://i.ibb.co/8YtKtM7/flaque.jpg" alt="Generic placeholder image">
+            <div class="container-fluid article-list">
+              <div class="row">
 
-
-                  <div class="myCard media-body pl-4"><!--class myCard add by Emilie for js script-->
-                      <h4 class="mt-0 mb-1 font-weight-bold">Mesure et catégorisation des flaques d’eau</h4>
-                      <p class="lead my-3">
-                          Une flaque d’eau ou simplement flaque, généralement appelée gouille en Suisse romande
-                          est une petite ...<!-- étendue d’eau temporaire constituée par l'accumulation d'eau, généralement  de pluie, dans un creux suffisamment imperméable du sol.
-                          Souvent mesuré et répertorié en aqua plannings par cm², cette méthode ne fait pourtant pas l’unanimité,
-                          au centre de ce débats, nos experts décèlent ce sujet qui enflamme les esprits.-->
-
-                      </p>
+                <div class="d-inline float-left col-5">
+                  <img class="col-12 pb-3" src="https://i.ibb.co/8YtKtM7/flaque.jpg" alt="Flaques d'eau">
+                </div>
+                <!--Display for large screens-->
+                <div class="d-inline float-right col-6">
+                  <h4 class="d-md-inline">Mesure et catégorisation des flaques d’eau</h4>
+                  <div class="d-none d-md-block">
+                    <p>Une flaque d’eau ou simplement flaque, généralement appelée gouille en 
+                      Suisse romande est une petite étendue d’eau...</p>
+                    <div class="pt-2 row">
                       <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                    </div>
                   </div>
-              </li>
+                </div>
+                <!--Mobile Display and Title Deleted for this size-->
+                <div class="d-block d-md-none">
+                  Une flaque d’eau ou simplement flaque, généralement appelée gouille en 
+                      Suisse romande est une petite étendue d’eau...
+                  <div class="pt-2 row">
+                    <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                  </div>
+                </div>
 
+              </div>
+            </div> 
+            <div class="container-fluid article-list">
+              <div class="row">
 
-              <li class="liContainer media my-4 themeViePratique"><!--class liContainer add by Emilie for script JS-->
-                  <img class="m-auto exempleimg col-5" src="https://i.ibb.co/0cxb6S0/pieds.jpg" alt="Generic placeholder image">
-
-
-                  <div class="myCard media-body pl-4"><!--class myCard add by Emilie for js script-->
-                      <h4 class="mt-0 mb-1 font-weight-bold">
-                          Apprendre à écrire avec ses pieds
-                      </h4>
-                      <p class="lead my-3">
-                          C’est la fin des vacances, vous n’avez pas lâché votre portable de la quinzaine.
-                          Vous devez toutefois envoyer votre carte postale, à votre grand mère pour amortir vos frais.
-                          La solution pour vous : écrire avec vos pieds.
-
-                      </p>
+                <div class="d-inline float-left col-5">
+                  <img class="col-12 pb-3" src="https://i.ibb.co/0cxb6S0/pieds.jpg" alt="Ecrire avec ses pieds">
+                </div>
+                <!--Display for large screens-->
+                <div class="d-inline float-right col-6">
+                  <h4 class="d-md-inline">Apprendre à écrire avec ses pieds</h4>
+                  <div class="d-none d-md-block">
+                    <p>C’est la fin des vacances, vous n’avez pas lâché votre portable de la quinzaine.
+                      Vous devez toutefois envoyer votre carte postale, à votre grand mère pour amortir vos frais.
+                      La solution pour vous : écrire avec vos pieds.</p>
+                    <div class="pt-2 row">
                       <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                    </div>
                   </div>
-              </li>
+                </div>
+                <!--Mobile Display and Title Deleted for this size-->
+                <div class="d-block d-md-none">
+                  C’est la fin des vacances, vous n’avez pas lâché votre portable de la quinzaine.
+                Vous devez toutefois envoyer votre carte postale, à votre grand mère pour amortir vos frais.
+                La solution pour vous : écrire avec vos pieds.
+                  <div class="pt-2 row">
+                    <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                  </div>
+                </div>
 
+              </div>
+            </div> 
 
-              <li class="liContainer media my-4 themeFitness"><!--class liContainer add by Emilie for script JS-->
-                  <img class="m-auto exempleimg col-5" src="https://i.ibb.co/hDVPzBQ/fessier.jpg" alt="Generic placeholder image">
+            <div class="container-fluid article-list">
+              <div class="row">
 
-
-                  <div class="myCard media-body pl-4"><!--class myCard add by Emilie for js script-->
-                      <h4 class="mt-0 mb-1 font-weight-bold">
-                          Comment muscler ses fessiers en faisant du dev
-                      </h4>
-                      <p class="lead my-3">
-                          Vous travaillez dans le Web Development? Vous voulez devenir Web Developer?
-                          Oui!!...mais attention à vos fesses. Elles risquent de ne pas digérer la valse de kB, MB, GB. Notre tuto rapide.
-
-                      </p>
+                <div class="d-inline float-left col-5">
+                  <img class="col-12 pb-3" src="https://i.ibb.co/hDVPzBQ/fessier.jpg" alt="Exo fessiers au fitness">
+                </div>
+                <!--Display for large screens-->
+                <div class="d-inline float-right col-6">
+                  <h4 class="d-md-inline">Comment muscler ses fessiers en faisant du dev</h4>
+                  <div class="d-none d-md-block">
+                    <p>Vous travaillez dans le Web Development? Vous voulez devenir Web Developer?
+                      Oui!!...mais attention à vos fesses. Elles risquent de ne pas digérer la valse de kB, MB, GB. Notre tuto rapide.</p>
+                    <div class="pt-2 row">
                       <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                    </div>
                   </div>
-              </li>
+                </div>
+                <!--Mobile Display and Title Deleted for this size-->
+                <div class="d-block d-md-none">
+                  Vous travaillez dans le Web Development? Vous voulez devenir Web Developer?
+                Oui!!...mais attention à vos fesses. Elles risquent de ne pas digérer la valse de kB, MB, GB. Notre tuto rapide.
+                  <div class="pt-2 row">
+                    <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                  </div>
+                </div>
 
+              </div>
+            </div> 
 
-              <li class="liContainer media my-4 themeNatureAnimaux"><!--class liContainer add by Emilie for script JS-->
-                  <img class="m-auto exempleimg col-5" src="https://i.ibb.co/yYDK0rf/castor.jpg" alt="Generic placeholder image">
+            <div class="container-fluid article-list">
+              <div class="row">
 
-
-                  <div class="myCard media-body pl-4"><!--class myCard add by Emilie for js script-->
-                      <h4 class="mt-0 mb-1 font-weight-bold">
-                          La Transhumance des castors d'Europe
-                      </h4>
-                      <p class="lead my-3">
-                          Le castor est un rongeur semi-aquatique très présent en France. Ce grand bâtisseur
-                          passe sa vie à aménager et peaufiner sa hutte afin que sa famille et lui-même y soient bien installés.
-                          Mais quand vient le printemps, nous pouvons observer un phénomène des plus étrange.. La transhumance du castor!
-
-                      </p>
+                <div class="d-inline float-left col-5">
+                  <img class="col-12 pb-3" src="https://i.ibb.co/yYDK0rf/castor.jpg" alt="Un castor">
+                </div>
+                <!--Display for large screens-->
+                <div class="d-inline float-right col-6">
+                  <h4 class="d-md-inline">La Transhumance des castors d'Europe</h4>
+                  <div class="d-none d-md-block">
+                    <p>Le castor est un rongeur semi-aquatique très présent en France. Ce grand bâtisseur
+                      passe sa vie à aménager et peaufiner sa hutte afin que sa famille et lui-même y soient bien installés.
+                      Mais quand vient le printemps, nous pouvons observer un phénomène des plus étrange.. La transhumance du castor!</p>
+                    <div class="pt-2 row">
                       <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                    </div>
                   </div>
-              </li>
+                </div>
+                <!--Mobile Display and Title Deleted for this size-->
+                <div class="d-block d-md-none">
+                  Le castor est un rongeur semi-aquatique très présent en France. Ce grand bâtisseur
+                  passe sa vie à aménager et peaufiner sa hutte afin que sa famille et lui-même y soient bien installés.
+                  Mais quand vient le printemps, nous pouvons observer un phénomène des plus étrange.. La transhumance du castor!
+                  <div class="pt-2 row">
+                    <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                  </div>
+                </div>
 
+              </div>
+            </div> 
 
-              <li class="liContainer media my-4 themePolitique"><!--class liContainer add by Emilie for script JS-->
-                  <img class="m-auto exempleimg col-5" src="https://i.ibb.co/PxByhXs/trumpbiden.jpg" alt="Generic placeholder image">
+            <div class="container-fluid article-list">
+              <div class="row">
 
-
-                  <div class="myCard media-body pl-4"><!--class myCard add by Emilie for js script-->
-                      <h4 class="mt-0 mb-1 font-weight-bold">
-                          Donald Trump torpille son premier débat avec Joe Biden
-                      </h4>
-                      <p class="lead my-3">
-                          Les deux candidats à la Maison Blanche ont débattu dans une ambiance électrique, mardi,
-                          lors de leur premier face-à-face télévisé à Cleveland, suivi par des dizaines de millions d’Américains.
-                      </p>
+                <div class="d-inline float-left col-5">
+                  <img class="col-12 pb-3" src="https://i.ibb.co/PxByhXs/trumpbiden.jpg" alt="Biden VS Trump">
+                </div>
+                <!--Display for large screens-->
+                <div class="d-inline float-right col-6">
+                  <h4 class="d-md-inline">Donald Trump torpille son premier débat avec Joe Biden</h4>
+                  <div class="d-none d-md-block">
+                    <p>Les deux candidats à la Maison Blanche ont débattu dans une ambiance électrique, mardi,
+                      lors de leur premier face-à-face télévisé à Cleveland, suivi par des dizaines de millions d’Américains.</p>
+                    <div class="pt-2 row">
                       <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                    </div>
                   </div>
-              </li>
+                </div>
+                <!--Mobile Display and Title Deleted for this size-->
+                <div class="d-block d-md-none">
+                  Les deux candidats à la Maison Blanche ont débattu dans une ambiance électrique, mardi,
+                  lors de leur premier face-à-face télévisé à Cleveland, suivi par des dizaines de millions d’Américains.
+                  <div class="pt-2 row">
+                    <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                  </div>
+                </div>
 
+              </div>
+            </div> 
 
-              <li class="liContainer media my-4 themeCuisine"><!--class liContainer add by Emilie for script JS-->
-                  <img class="m-auto exempleimg col-5" src="https://i.ibb.co/Qfg9rNg/Ma-t.jpg" alt="Generic placeholder image">
+            <div class="container-fluid article-list">
+              <div class="row">
 
-
-                  <div class="myCard media-body pl-4"><!--class myCard add by Emilie for js script-->
-                      <h4 class="mt-0 mb-1 font-weight-bold">Maïté : Retraitée isolée et jalousée dans les Landes</h4>
-                      <p class="lead my-3">
-                          Plus que jamais la cuisine fait saliver les Français, à la télévision, en librairies, dans l'assiette... Et, pourtant, un visage phare de ce domaine manque à l'appel :
-                          celui de Maïeté. La populaire cuisinière a certes connu son heure de gloire dans le passé mais cela reste mystérieux qu'elle n'apparaisse plus dans les médias.
-                          Elle vit sa retraite, isolée.
-                      </p>
+                <div class="d-inline float-left col-5">
+                  <img class="col-12 pb-3" src="https://i.ibb.co/Qfg9rNg/Ma-t.jpg" alt="Maïté portrait">
+                </div>
+                <!--Display for large screens-->
+                <div class="d-inline float-right col-6">
+                  <h4 class="d-md-inline">Maïté : Retraitée isolée et jalousée dans les Landes</h4>
+                  <div class="d-none d-md-block">
+                    <p>Plus que jamais la cuisine fait saliver les Français, à la télévision, en librairies, dans l'assiette... Et, pourtant, un visage phare de ce domaine manque à l'appel :
+                      celui de Maïeté. La populaire cuisinière a certes connu son heure de gloire dans le passé mais cela reste mystérieux qu'elle n'apparaisse plus dans les médias.
+                      Elle vit sa retraite, isolée.</p>
+                    <div class="pt-2 row">
                       <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                    </div>
                   </div>
-              </li>
+                </div>
+                <!--Mobile Display and Title Deleted for this size-->
+                <div class="d-block d-md-none">
+                  Plus que jamais la cuisine fait saliver les Français, à la télévision, en librairies, dans l'assiette... Et, pourtant, un visage phare de ce domaine manque à l'appel :
+                  celui de Maïeté. La populaire cuisinière a certes connu son heure de gloire dans le passé mais cela reste mystérieux qu'elle n'apparaisse plus dans les médias.
+                  Elle vit sa retraite, isolée.
+                  <div class="pt-2 row">
+                    <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                  </div>
+                </div>
 
-              <li class="liContainer media my-4 themeHistoire">
-                  <!--class liContainer add by Emilie for script JS-->
+              </div>
+            </div> 
 
-                  <img class="m-auto exempleimg col-5" src="https://i.ibb.co/mJP7KsM/atlantide.jpg" alt="atlantide" border="0" > 
-                  <div class="myCard media-body">
+            <div class="container-fluid article-list">
+              <div class="row">
 
-                      <!--class myCard add by Emilie for js script-->
-                      <h4 class="mt-0 mb-1 font-weight-bold">
-                          L'histoire vraie de l'Atlantide
-                      </h4>
-
-                      <p class="lead my-3">
-                          L’Atlantide (du grec ancien Ἀτλαντίς / Atlantís) est une île mythique évoquée par Platon dans deux de ses Dialogues, le Timée puis le Critias.
-                      </p>
+                <div class="d-inline float-left col-5">
+                  <img class="col-12 pb-3" src="https://i.ibb.co/mJP7KsM/atlantide.jpg" alt="L'Atlantide">
+                </div>
+                <!--Display for large screens-->
+                <div class="d-inline float-right col-6">
+                  <h4 class="d-md-inline">L'histoire vraie de l'Atlantide</h4>
+                  <div class="d-none d-md-block">
+                    <p>L’Atlantide (du grec ancien Ἀτλαντίς / Atlantís) est une île mythique 
+                      évoquée par Platon dans deux de ses Dialogues, le Timée puis le Critias.</p>
+                    <div class="pt-2 row">
                       <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                    </div>
                   </div>
-              </li>
+                </div>
+                <!--Mobile Display and Title Deleted for this size-->
+                <div class="d-block d-md-none">
+                  L’Atlantide (du grec ancien Ἀτλαντίς / Atlantís) est une île mythique 
+                  évoquée par Platon dans deux de ses Dialogues, le Timée puis le Critias.
+                  <div class="pt-2 row">
+                    <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                  </div>
+                </div>
 
+              </div>
+            </div> 
 
-              <li class="liContainer media my-4 themeNatureAnimaux2"><!--class liContainer add by Emilie for script JS-->
-                  <img class="m-auto exempleimg col-5" src="https://i.ibb.co/wrCGy0z/Hippocampes.jpg" alt="Generic placeholder image">
+            <div class="container-fluid article-list">
+              <div class="row">
 
-
-                  <div class="myCard media-body pl-4"><!--class myCard add by Emilie for js script-->
-                      <h4 class="mt-0 mb-1 font-weight-bold">
-                          La reproduction des hippocampes : il faut le voir pour le croire
-                      </h4>
-                      <p class="lead my-3">
-                          Les Hippocampes (Hippocampus), du grec ἵππος, híppos, « cheval » et de κάμπος, kámpos, « poisson marin », aussi appelés familièrement chevaux de mer,
-                          sont un genre de poissons à nageoires rayonnées de la famille des Syngnathidae.
-
-                      </p>
+                <div class="d-inline float-left col-5">
+                  <img class="col-12 pb-3" src="https://i.ibb.co/wrCGy0z/Hippocampes.jpg" alt="Accouplement 2 hippocampes">
+                </div>
+                <!--Display for large screens-->
+                <div class="d-inline float-right col-6">
+                  <h4 class="d-md-inline">La reproduction des hippocampes : il faut le voir pour le croire</h4>
+                  <div class="d-none d-md-block">
+                    <p>Les Hippocampes (Hippocampus), du grec ἵππος, híppos, « cheval » et de κάμπος, kámpos, « poisson marin », aussi appelés familièrement chevaux de mer,
+                      sont un genre de poissons à nageoires rayonnées de la famille des Syngnathidae.</p>
+                    <div class="pt-2 row">
                       <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                    </div>
                   </div>
-              </li>
+                </div>
+                <!--Mobile Display and Title Deleted for this size-->
+                <div class="d-block d-md-none">
+                  Les Hippocampes (Hippocampus), du grec ἵππος, híppos, « cheval » et de κάμπος, kámpos, « poisson marin », aussi appelés familièrement chevaux de mer,
+                  sont un genre de poissons à nageoires rayonnées de la famille des Syngnathidae.
+                  <div class="pt-2 row">
+                    <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                  </div>
+                </div>
 
+              </div>
+            </div> 
 
-              <li class="liContainer media my-4 themeBeaute"><!--class liContainer add by Emilie for script JS-->
-                  <img class="m-auto exempleimg col-5" src="https://i.ibb.co/6NqG6vw/coiffure.jpg" alt="Generic placeholder image">
+            <div class="container-fluid article-list">
+              <div class="row">
 
-
-                  <div class="myCard media-body pl-4"><!--class myCard add by Emilie for js script-->
-                      <h4 class="mt-0 mb-1 font-weight-bold">Organisation de la coupe du monde de coiffure</h4>
-                      <p class="lead my-3">
-                          Hair we go - Après des années de pellicules et de chute précoce, la célèbre marque de shampooing “Tête & Epaules” décide d’organiser un tournoi sans précédent!
-                      </p>
+                <div class="d-inline float-left col-5">
+                  <img class="col-12 pb-3" src="https://i.ibb.co/6NqG6vw/coiffure.jpg" alt="Coiffure mulet">
+                </div>
+                <!--Display for large screens-->
+                <div class="d-inline float-right col-6">
+                  <h4 class="d-md-inline">Organisation de la coupe du monde de coiffure</h4>
+                  <div class="d-none d-md-block">
+                    <p>Hair we go - Après des années de pellicules et de chute précoce, la célèbre marque 
+                      de shampooing “Tête & Epaules” décide d’organiser un tournoi sans précédent!</p>
+                    <div class="pt-2 row">
                       <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                    </div>
                   </div>
-              </li>
-          </ul>
+                </div>
+                <!--Mobile Display and Title Deleted for this size-->
+                <div class="d-block d-md-none">
+                  Hair we go - Après des années de pellicules et de chute précoce, la célèbre marque 
+                  de shampooing “Tête & Epaules” décide d’organiser un tournoi sans précédent!
+                  <div class="pt-2 row">
+                    <a href="#" class="btn btn-warning btn-lg">Lire l'article</a>
+                  </div>
+                </div>
+
+              </div>
+            </div> 
+                
+          </div>
+
+
+<!--*****************************************************************************
+*********************END OF CARD-LIST DISPLAY*************************************
+*********************************************************************************-->   
+        
         </article>
        
       <aside class="d-none d-lg-block col-2 ">
@@ -652,8 +911,11 @@
 
 
     <script type="text/javascript" src="cards.js"></script>
-    <script type="text/javascript" src="newsFeed.js"></script>
+    <!--<script type="text/javascript" src="newsFeed.js"></script> -->  <!--newsFeed not integrated for the moment -->
     <script type="text/javascript" src="index.js"></script>
+   
+    
+
 
 
 
