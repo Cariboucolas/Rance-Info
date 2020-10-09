@@ -18,178 +18,299 @@
 
   </head>
 
-<body style="max-width: 2048px;" class="m-auto">
- 
-<div class="container-fluid"> 
-  <header class="blog-header py-3">
-    <div class="row titleBanner bigTitle">
-      <div class="col-4 pt-1">
-        <nav class="d-block d-lg-none ">
-          <div id="menuToggle">
-            <input type="checkbox" />
-              <span></span>
-              <span></span>
-              <span></span>
-          <ul id="menu">
-            <li><a href="#">Theme1</a></li>
-            <li><a href="#">Theme2</a></li>
-            <li><a href="#">Theme3</a></li>
-            <li><a href="#">Theme5</a></li>
-            <li><a href="#">Theme6</a></li>
-            <li><a href="#">Theme7</a></li>
-            <li><a href="#">Theme8</a></li>
-            <li><a href="#">Theme9</a></li>
-          </ul>
-         </div>
-         </nav>
-        <!--<a href="#" class="d-sm-block d-md-none">menu burger</a>-->
-      </div>
-      
-      <div class="col-4 text-center">
-        <a class="title ranceTitle" href="index.html">Rance info <span>:</span></a>
-      </div>
-      <div class="col-4 d-flex justify-content-end">
-        <a href="#" class="mr-sm-2"> <!-- search button-->
-          <svg 
-            width="1em" 
-            height="1em" 
-            viewBox="0 0 16 16" 
-            class="bi bi-search" 
-            fill="currentColor" 
-            xmlns="http://www.w3.org/2000/svg">
-            <path 
-              fill-rule="evenodd" 
-              d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-            <path 
-              fill-rule="evenodd" 
-              d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-            </svg>
-          </a>
-           <!-- <button class="cardButton"> 
-              <svg 
-                width="1em" 
-                height="1em" 
-                viewBox="0 0 16 16" 
-                class="bi bi-layout-wtf" 
-                fill="currentColor" 
-                xmlns="http://www.w3.org/2000/svg">
-                <path 
-                  fill-rule="evenodd" 
-                  d="M5 1H1v8h4V1zM1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm13 2H9v5h5V2zM9 1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9zM5 13H3v2h2v-2zm-2-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3zm12-1H9v2h6v-2zm-6-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H9z"/>
-              </svg>
-            </button>
-            <button class="listButton"> 
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list-ul" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-            </svg>
-            </button> -->
-
-          </div>
-        </div>
-      </header>
-<!-----------------------------------------------------------
--------------------------------------------------------------
---------Dropdown menu in pure CSS not a bootstrap class-------
--------------------by Emilie----------------------------------
-------------------------------------------------------------->
-  <nav class="dropdownMenu">
+  <body  class="m-auto">
     
 
-    <ul>
-      <!--ANIMATION-->
-      <li class="animation">
-        <button class="dropButton"><a href="#" class="aMenu">Animés/BD</a></button>
-          <div class="dropdownContent">
-            <a href="goldorak.html">Goldorak vs NL</a>
-            <a href="bdWilders.html">BD de Wilders</a>
-            
-          </div>
-      </li>
-      <!--SCIENCES-->
-      <li class="sciences">
-        <button class="dropButton"><a href="#" class="aMenu">Sciences</a></button>
-          <div class="dropdownContent">
-            <ul class="listInDropdown">
-              <li><h4>informatique</h4></li>
-              <li><a href="https://www.gohumour.com/blague/societe/geeks/windows">Windows</a></li>
-              <li><a href="https://www.gohumour.com/blague/societe/geeks/apple">Apple</a></li>
-              <li><a href="https://www.gohumour.com/blague/societe/geeks/linux">Linux</a></li>
-              <li><a href="https://www.gohumour.com/blague/societe/geeks/internet">Internet</a></li>
-            </ul>
-            <ul class="listInDropdown">
-              <li><h4>Developement Web</h4></li>
-              <li><a href="#">Sport pour dev</a></li>
-            </ul>
+    <div class="container-fluid"> <!--This div contain all website-->
 
+        <header class="blog-header py-3">
 
-          </div>
-      </li>
-      <!--VIE PRATIQUE-->
-      <li class="viePratique">
-        <button class="dropButton"><a href="#" class="aMenu">Vie Pratique</a></button>
-          <div class="dropdownContent">
-            <a href="#">Ecrire avec ses pieds</a>
-            <a href="#">Activités aux toilettes</a>
-            <a href="#">link1</a>
-          </div>
-      </li>
-      <!--SPORT-->
-      <li class="fitness">
-        <button class="dropButton"><a href="#" class="aMenu">Sport</a></button>
-          <div class="dropdownContent">
-            <a href="hair.html">WC coiffure</a>
-            <a href="#">Sport pour dev</a>
-            <a href="#">link1</a>
-          </div>
-      </li>
-      <!--NATURE ET ANIMAUX-->
-      <li class="natureAnimaux">
-        <button class="dropButton"><a href="#" class="aMenu">Nature et animaux</a></button>
-          <div class="dropdownContent">
-            <a href="beavers.html">La transhumance des castors</a>
-            <a href="seaHorses.html">La reprodustion des hippocampes</a>
-          </div>
-      </li>
-      <!--Politique-->
-      <li class="politique">
-        <button class="dropButton"><a href="#" class="aMenu">Politique</a></button>
-          <div class="dropdownContent">
-            <a href="trump.html">Trump VS Biden</a>
-            <a href="#">link1</a>
-            <a href="#">link1</a>
-          </div>
-      </li>
-      <!--CUISINE-->
-      <li class="cuisine">
-        <button class="dropButton"><a href="#" class="aMenu">Cuisine</a></button>
-          <div class="dropdownContent">
-            <a href="#">Canard ou cochon?</a>
-            <a href="#">link1</a>
-            <a href="#">link1</a>
-          </div>
-      </li>
-      <!--HISTOIRE -->
-      <li class="histoire">
-        <button class="dropButton"><a href="#" class="aMenu">Histoire</a></button>
-          <div class="dropdownContent">
-            <a href="atlantide.html">L'histoire vrai de l'atlantide</a>
+            <!--******Tiltle Banner*******-->
+            <div class="row titleBanner bigTitle">
+
+                <!--**************************************
+                **********Menu Buger add by emilie********
+                ************************************************-->
+                <div class="col-4 pt-1">
+
+                    <nav class="d-block d-lg-none menus">
+                        <div id="menuToggle">
+                            <input type="checkbox" />
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <ul id="menu">
+
+                                <!-- ANIMES/BD -->
+                                <li>
+                                    <div class="btn-group dropright " >
+                                        <button type="button" class="btn btn-dark btn-outline-warning dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Animés/BD
+                                        </button>
+                                        <div class="dropdown-menu p-2 m-2">
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="goldorak.html">Goldorak vs NL</a>
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="bdWilders.html">BD de Wilders</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- SCIENCES -->
+                                <li>
+                                    <div class="btn-group dropright">
+                                        <button type="button" class="btn btn-dark btn-outline-warning dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Sciences
+                                        </button>
+                                        <div class="dropdown-menu p-2 m-2">
+                                        <h4>Informatique</h4>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="https://www.gohumour.com/blague/societe/geeks/windows">Windows</a>
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="https://www.gohumour.com/blague/societe/geeks/apple">Apple</a>
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="https://www.gohumour.com/blague/societe/geeks/linux">Linux</a>
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="https://www.gohumour.com/blague/societe/geeks/internet">Internet</a>
+                                        
+                                        <div class="dropdown-divider"></div>
+                                        <h4>Developpement Web </h4>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="training.html">Sport pour dev</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- VIE PRATIQUE -->
+                                <li>
+                                    <div class="btn-group dropright">
+                                        <button type="button" class="btn btn-dark btn-outline-warning dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Vie pratique
+                                        </button>
+                                        <div class="dropdown-menu p-2 m-2">
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="footWrite.html">Ecrire avec ses pieds</a>
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="wcActivity.html">Activités aux toilettes</a>
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="flasks.html">Mesurer les flaques</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- SPORT -->
+                                <li>
+                                    <div class="btn-group dropright">
+                                        <button type="button" class="btn btn-dark btn-outline-warning dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Sport
+                                        </button>
+                                        <div class="dropdown-menu p-2 m-2">
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="hair.html">Coupe du monde de coiffure</a>
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="training.html">Sport pour dev</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- NATURE ET ANIMAUX -->
+                                <li>
+                                    <div class="btn-group dropright">
+                                        <button type="button" class="btn btn-dark btn-outline-warning dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Nature et animaux
+                                        </button>
+                                        <div class="dropdown-menu p-2 m-2">
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="beavers.html">La transhumance des castors</a>
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="seaHorses.html">La reproduction des hippocampes</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <!-- POLITIQUE -->
+                                <li>
+                                    <div class="btn-group dropright">
+                                        <button type="button" class="btn btn-dark btn-outline-warning dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Politique
+                                        </button>
+                                        <div class="dropdown-menu p-2 m-2">
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="trump.html">Trump VS Biden</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- CUISINE -->
+                                <li>
+                                    <div class="btn-group dropright">
+                                        <button type="button" class="btn btn-dark btn-outline-warning dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Cuisine
+                                        </button>
+                                        <div class="dropdown-menu p-2 m-2">
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="duckPig.html">Canard ou cochon?</a>
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="maite.html">Maïté</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- HISTOIRE -->
+                                <li>
+                                    <div class="btn-group dropright">
+                                        <button type="button" class="btn btn-dark btn-outline-warning dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Histoire
+                                        </button>
+                                        <div class="dropdown-menu p-2 m-2">
+                                        <a class="dropdown-item shadow bg-light rounded mb-1" href="atlantide.html">L'histoire vrai de l'atlantide</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!--BEAUTY-->
+                                <!--<li>
+                                <div class="btn-group dropright">
+                                    <button type="button" class="btn btn-dark btn-outline-warning dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Beautée
+                                    </button>
+                                    <div class="dropdown-menu p-2 m-2">
+                                    <a class="dropdown-item shadow bg-light rounded mb-1" href="#">LINK</a>
+                                    </div>
+                                </div>
+                            </li>-->
+
+                            </ul>
+                        </div>
+                    </nav>
+                    <!--<a href="#" class="d-sm-block d-md-none">menu burger</a>-->
+                </div>
+                <!--***************************************
+                *********End of menu burger***************
+                *************************************************-->
             
-          </div>
-      </li>
-      <!--BEAUTE-->
-      <li class="beauty">
-        <button class="dropButton"><a href="#" class="aMenu">Beauté</a></button>
-          <div class="dropdownContent">
-            <a href="#">link1</a>
-            <a href="#">link1</a>
-            <a href="#">link1</a>
-          </div>
-      </li>
-    </ul>
-  </nav>  
-  <!-------------------------------------------------
-    --------End DropDown menu pure CSS---------------
-  --------------------------------------------------->
+                <div class="col-4 text-center">
+                    <a class="title ranceTitle" href="index.html">Rance info <span>:</span></a>
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                    <a href="#" class="mr-sm-2"> <!-- search button missing fonctionality -->
+                    <svg 
+                        width="1em" 
+                        height="1em" 
+                        viewBox="0 0 16 16" 
+                        class="bi bi-search" 
+                        fill="currentColor" 
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path 
+                        fill-rule="evenodd" 
+                        d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                        <path 
+                        fill-rule="evenodd" 
+                        d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                    </svg>
+                    </a>
+                </div>
+
+            </div> <!--End tilte banner-->
+        </header>
+
+        <!--*********************************************************
+        ****************Dropdown menu by Emilie**********************
+        ************************************************************-->
+        <nav class="dropdownMenu d-none d-lg-block menus">
+        
+
+            <ul class="justify-content-center">
+
+                <!--Home button-->
+                <button class="dropButton">
+                    <a href="index.html" class="amenu">
+                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                            <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                        </svg>
+                    </a>
+                </button>
+
+                <!--ANIMATION-->
+                <li class="animation">
+                    <button class="dropButton"><a href="#" class="aMenu">Animés/BD</a></button>
+                    <div class="dropdownContent">
+                        <a class="dropdown-item" href="goldorak.html">Goldorak vs NL</a>
+                        <a class="dropdown-item" href="bdWilders.html">BD de Wilders</a>
+                        
+                    </div>
+                </li>
+                <!--SCIENCES-->
+                <li class="sciences">
+                    <button class="dropButton"><a href="#" class="aMenu">Sciences</a></button>
+                    <div class="dropdownContent">
+                        <h4 class="dropdown-item" >Informatique</h4>
+                        <a class="dropdown-item" href="https://www.gohumour.com/blague/societe/geeks/windows">Windows</a>
+                        <a class="dropdown-item" href="https://www.gohumour.com/blague/societe/geeks/apple">Apple</a>
+                        <a class="dropdown-item" href="https://www.gohumour.com/blague/societe/geeks/linux">Linux</a>
+                        <a class="dropdown-item" href="https://www.gohumour.com/blague/societe/geeks/internet">Internet</a>    
+                        <h4 class="dropdown-item" >Developpement Web </h4>
+                        <a class="dropdown-item" href="training.html">Sport pour dev</a>    
+                    </div>
+                </li>
+
+                <!--VIE PRATIQUE-->
+                <li class="viePratique">
+                    <button class="dropButton"><a href="#" class="aMenu">Vie Pratique</a></button>
+                    <div class="dropdownContent">
+                        <a class="dropdown-item" href="footWrite.html">Ecrire avec ses pieds</a>
+                        <a class="dropdown-item" href="wcActivity.html">Activités aux toilettes</a>
+                        <a class="dropdown-item" href="flasks.html">Mesurer les flaques</a>
+
+                    </div>
+                </li>
+
+                <!--SPORT-->
+                <li class="fitness">
+                    <button class="dropButton"><a href="#" class="aMenu">Sport</a></button>
+                    <div class="dropdownContent">
+                        <a class="dropdown-item" href="hair.html">WC coiffure</a>
+                        <a class="dropdown-item" href="training.html">Sport pour dev</a>
+                    </div>
+                </li>
+                
+                <!--NATURE ET ANIMAUX-->
+                <li class="natureAnimaux">
+                    <button class="dropButton"><a href="#" class="aMenu">Nature et animaux</a></button>
+                    <div class="dropdownContent">
+                        <a class="dropdown-item" href="beavers.html">La transhumance des castors</a>
+                        <a class="dropdown-item" href="seaHorses.html">La reproduction des hippocampes</a>
+                    </div>
+                </li>
+                
+                <!--Politique-->
+                <li class="politique">
+                    <button class="dropButton"><a href="#" class="aMenu">Politique</a></button>
+                    <div class="dropdownContent">
+                        <a class="dropdown-item" href="trump.html">Trump VS Biden</a>
+                        
+                    </div>
+                </li>
+                
+                <!--CUISINE-->
+                <li class="cuisine">
+                    <button class="dropButton"><a href="#" class="aMenu">Cuisine</a></button>
+                    <div class="dropdownContent">
+                        <a class="dropdown-item" href="duckPig.html">Canard ou cochon?</a>
+                        <a class="dropdown-item" href="maite.html">Maïté</a>
+                        
+                    </div>
+                </li>
+                
+                <!--HISTOIRE -->
+                <li class="histoire">
+                    <button class="dropButton"><a href="#" class="aMenu">Histoire</a></button>
+                    <div class="dropdownContent">
+                        <a class="dropdown-item" href="atlantide.html">L'atlantide</a>
+                        
+                    </div>
+                </li>
+                
+                <!--BEAUTE-->
+                <!--<li class="beauty">
+                    <button class="dropButton"><a href="#" class="aMenu">Beauté</a></button>
+                    <div class="dropdownContent">
+                        <a class="dropdown-item" href="#">link1</a>
+                        <a class="dropdown-item" href="#">link1</a>
+                        <a class="dropdown-item" href="#">link1</a>
+                    </div>
+                </li>-->
+            </ul>
+        </nav>  
+        <!--***************************************************
+        **************End DropDown menu*************************
+        ****************************************************-->
     <h1 class="title-form">Nous Contacter</h1>
     <section class="d-flex">
         
@@ -220,81 +341,81 @@
         </form> 
     </section>
   
-  <footer class="page-footer font-small stylish-color-dark pt-4 footer">
+    <footer class="page-footer font-small stylish-color-dark pt-4 footer">
 
-    <div class="container text-center text-md-left">
-      <!-- Grid row -->
-      <div class="row">
-        <!-- Grid column -->
-        <div class="col-md-4 mx-auto">
-          <!-- Content -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 footerTitle yellowEffect">Rance Info <span>:</span></h5>  
-        </div>
-          <!-- Grid column -->
-          
-          <hr class="clearfix w-100 d-md-none">
-          
-          <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-          <!-- Links -->  
-          <ul class="list-unstyled">
-            <li>
-              <a href="#" target="_blank" class="footerLink yellowEffect">Nous contacter</a>
-            </li>
-            <li>
-              <a href="#!"  target="_blank" class="footerLink yellowEffect">Qui sommes nous?</a>
-            </li>
-          </ul>    
-        </div>
-          <!-- Grid column -->
-          
-          <hr class="clearfix w-100 d-md-none">
-          
-          <!-- Grid column -->
-        <div class="col-md-2 mx-auto"> 
-          <!-- Links --> 
-          <ul class="list-unstyled">
-            <li>
-              <a href="https://www.adopteunmec.com/" target="_blank" class="footerLink">Recrutement</a>
-            </li>
-            <li>
-              <a href="https://www.francetvinfo.fr/cgu/" target="_blank" class="footerLink">CGU et mentions légales</a>
-            </li>
-          </ul>  
-        </div>
-          <!-- Grid column -->
-          
-          <hr class="clearfix w-100 d-md-none">
-          
-          <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-          <!-- Links -->
-          <ul class="list-unstyled">
-            <li>
-              <a href="https://www.youtube.com/watch?v=fRLiCXWnuts&ab_channel=CuisineMarocaineByMariam" target="_blank" class="footerLink">Gestion des cookies</a>
-            </li>
-            <li>
-              <a href="https://www.007.com/" target="_blank" class="footerLink">Politiques de confidentialités</a>
-            </li>
-          </ul>   
-        </div>
-          <!-- Grid column -->
-          
-      </div>
+      <div class="container text-center text-md-left">
         <!-- Grid row -->
-        
-    </div>
-      <!-- Footer Links -->
-      
-      <hr>
-      
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://www.wildcodeschool.com" target="_blank" class="footerLink"> Wild Code School</a>
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-4 mx-auto">
+            <!-- Content -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4 footerTitle yellowEffect">Rance Info <span>:</span></h5>  
+          </div>
+            <!-- Grid column -->
+            
+            <hr class="clearfix w-100 d-md-none">
+            
+            <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+            <!-- Links -->  
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" target="_blank" class="footerLink yellowEffect">Nous contacter</a>
+              </li>
+              <li>
+                <a href="#!"  target="_blank" class="footerLink yellowEffect">Qui sommes nous?</a>
+              </li>
+            </ul>    
+          </div>
+            <!-- Grid column -->
+            
+            <hr class="clearfix w-100 d-md-none">
+            
+            <!-- Grid column -->
+          <div class="col-md-2 mx-auto"> 
+            <!-- Links --> 
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.adopteunmec.com/" target="_blank" class="footerLink">Recrutement</a>
+              </li>
+              <li>
+                <a href="https://www.francetvinfo.fr/cgu/" target="_blank" class="footerLink">CGU et mentions légales</a>
+              </li>
+            </ul>  
+          </div>
+            <!-- Grid column -->
+            
+            <hr class="clearfix w-100 d-md-none">
+            
+            <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+            <!-- Links -->
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.youtube.com/watch?v=fRLiCXWnuts&ab_channel=CuisineMarocaineByMariam" target="_blank" class="footerLink">Gestion des cookies</a>
+              </li>
+              <li>
+                <a href="https://www.007.com/" target="_blank" class="footerLink">Politiques de confidentialités</a>
+              </li>
+            </ul>   
+          </div>
+            <!-- Grid column -->
+            
+        </div>
+          <!-- Grid row -->
+          
       </div>
-      <!-- Copyright -->
-      
-  </footer>
+        <!-- Footer Links -->
+        
+        <hr>
+        
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://www.wildcodeschool.com" target="_blank" class="footerLink"> Wild Code School</a>
+        </div>
+        <!-- Copyright -->
+        
+    </footer>
   
   </div>
     
