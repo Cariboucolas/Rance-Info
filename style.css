@@ -35,3 +35,19 @@ a.footerLink {
 .footerTitle {
     color: White;
 }
+
+/*formContact*/
+
+.title-form {
+    padding-top: 15px;
+}
+
+.contact {
+    margin: 15px;
+    padding: 20px;
+    width: 50%;
+}
+
+.form-container {
+    margin-right: 20px;
+}
