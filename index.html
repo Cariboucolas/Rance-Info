@@ -408,9 +408,37 @@
                     <h5 class="card-title">Goldorak versus Nicky Larson</h5>
                     <p class="card-text">Qui de Goldorak ou de Nicky Larson est il le plus puissant? Une question que 
                     forcément toute personne qui se respecte, se pose, sinon à quoi bon rester en vie?!</p>
-                    <a href="goldorak.html" class="btn btn-warning btn-lg">Lire l'article</a>  
+                    <div class="d-flex justify-content-between">
+                    <a href="goldorak.html" class="btn btn-warning btn-lg">Lire l'article</a>
+                        <button id="share-button" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#LinkGoldorak">
+                            <svg id="share-svg" width="1.6em" height="1.6em" viewBox="0 0 16 16" class="bi bi-share" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                            </svg>
+                        </button>
+                        <!--Pop up!-->
+                        <div class="modal fade" id="LinkGoldorak" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Copie le link dans ton presse-papier!</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <a id="copieLienGoldorak" href="goldorak.html">goldorak.html</a>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                        <button type="button" class="btn btn-warning d-none">Copier dans le presse-papier</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
                 </div>
                 </div>
+        
     
                 <div class="card">
                 <img class="card-img-top" src="https://i.ibb.co/8YtKtM7/flaque.jpg" alt="Flaques d'eau">
